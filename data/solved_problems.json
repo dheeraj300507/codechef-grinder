@@ -1,5 +1,5 @@
 {
-  "total_solved": 136,
+  "total_solved": 138,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -136,7 +136,9 @@
     "DIFFSUM",
     "SPECIALITY",
     "KNGTOR",
-    "FAVOURITENUM"
+    "FAVOURITENUM",
+    "DISCUS",
+    "LAPIN"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -1092,6 +1094,20 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-09-15 17:29:18"
+    },
+    {
+      "code": "DISCUS",
+      "name": "Discus Throw",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-15 18:17:51"
+    },
+    {
+      "code": "LAPIN",
+      "name": "Lapindromes",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-15 18:19:01"
     }
   ]
 }
