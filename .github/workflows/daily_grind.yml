@@ -43,9 +43,9 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           CODECHEF_SESSION: ${{ secrets.CODECHEF_SESSION }}
           RANDOMIZE_BATCH: "true"
-          MIN_PROBLEMS_PER_RUN: "2"
-          MAX_PROBLEMS_PER_RUN: "5"
-          DAILY_TARGET_MIN: "8"
+          MIN_PROBLEMS_PER_RUN: "4"
+          MAX_PROBLEMS_PER_RUN: "6"
+          DAILY_TARGET_MIN: "10"
           DAILY_TARGET_MAX: "20"
           MIN_DELAY_SECONDS: "40"
           MAX_DELAY_SECONDS: "110"
