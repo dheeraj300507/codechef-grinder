@@ -1,5 +1,5 @@
 {
-  "total_solved": 138,
+  "total_solved": 144,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -138,7 +138,13 @@
     "KNGTOR",
     "FAVOURITENUM",
     "DISCUS",
-    "LAPIN"
+    "LAPIN",
+    "HEIGHTRATION",
+    "PARTY2",
+    "INTRDSGN",
+    "INSURANCE",
+    "MVR",
+    "FLOW008"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -1108,6 +1114,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-15 18:19:01"
+    },
+    {
+      "code": "HEIGHTRATION",
+      "name": "Height of Rationals",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-15 20:29:03"
+    },
+    {
+      "code": "PARTY2",
+      "name": "Chef gives Party",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-15 20:31:02"
+    },
+    {
+      "code": "INTRDSGN",
+      "name": "Interior Design",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-15 20:32:36"
+    },
+    {
+      "code": "INSURANCE",
+      "name": "Insurance",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-15 20:34:04"
+    },
+    {
+      "code": "MVR",
+      "name": "Messi vs Ronaldo",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-15 20:35:50"
+    },
+    {
+      "code": "FLOW008",
+      "name": "Helping Chef",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-15 20:36:49"
     }
   ]
 }
