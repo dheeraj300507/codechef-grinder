@@ -1,5 +1,5 @@
 {
-  "total_solved": 135,
+  "total_solved": 136,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -135,11 +135,13 @@
     "TVDISC",
     "DIFFSUM",
     "SPECIALITY",
-    "KNGTOR"
+    "KNGTOR",
+    "FAVOURITENUM"
   ],
   "failed_codes": [
     "CCLEARN",
-    "KITCHENCOST"
+    "KITCHENCOST",
+    "CREDS"
   ],
   "history": [
     {
@@ -1083,6 +1085,13 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-09-15 16:38:31"
+    },
+    {
+      "code": "FAVOURITENUM",
+      "name": "Favourite Numbers",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-15 17:29:18"
     }
   ]
 }
