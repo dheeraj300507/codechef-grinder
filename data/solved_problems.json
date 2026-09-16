@@ -1,5 +1,5 @@
 {
-  "total_solved": 163,
+  "total_solved": 164,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -163,7 +163,8 @@
     "BOBBANK",
     "CHRISTGREET",
     "COUGAME",
-    "MOVIE2X"
+    "MOVIE2X",
+    "MINCARS"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -1308,6 +1309,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-16 17:52:13"
+    },
+    {
+      "code": "MINCARS",
+      "name": "Minimum Cars required",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-16 20:27:15"
     }
   ]
 }
