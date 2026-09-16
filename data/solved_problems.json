@@ -1,5 +1,5 @@
 {
-  "total_solved": 152,
+  "total_solved": 158,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -152,7 +152,13 @@
     "REACH_HOME",
     "AIRINDEX",
     "CHEAPFOOD",
-    "ACTEMP"
+    "ACTEMP",
+    "BNE_APT",
+    "RECENTCONT",
+    "TYRE",
+    "BROKENPHONE",
+    "CANDYDIST",
+    "FINE"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -1220,6 +1226,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-16 09:37:09"
+    },
+    {
+      "code": "BNE_APT",
+      "name": "Bone Appetit",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-16 14:10:17"
+    },
+    {
+      "code": "RECENTCONT",
+      "name": "Recent contest problems",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-16 14:11:29"
+    },
+    {
+      "code": "TYRE",
+      "name": "Tyre problem",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-16 14:12:45"
+    },
+    {
+      "code": "BROKENPHONE",
+      "name": "Broken Phone",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-16 14:14:25"
+    },
+    {
+      "code": "CANDYDIST",
+      "name": "Candy Distribution",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-16 14:15:46"
+    },
+    {
+      "code": "FINE",
+      "name": "Overspeeding Fine",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-16 14:17:21"
     }
   ]
 }
