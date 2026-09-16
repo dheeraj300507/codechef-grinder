@@ -1,5 +1,5 @@
 {
-  "total_solved": 144,
+  "total_solved": 148,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -144,7 +144,11 @@
     "INTRDSGN",
     "INSURANCE",
     "MVR",
-    "FLOW008"
+    "FLOW008",
+    "LARGESECOND",
+    "CANDYSTORE",
+    "NETFLIX",
+    "NEARESTEXIT"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -1156,6 +1160,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-15 20:36:49"
+    },
+    {
+      "code": "LARGESECOND",
+      "name": "Largest and Second Largest",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-16 08:00:10"
+    },
+    {
+      "code": "CANDYSTORE",
+      "name": "Candy Store",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-16 08:01:25"
+    },
+    {
+      "code": "NETFLIX",
+      "name": "Netflix",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-16 08:02:43"
+    },
+    {
+      "code": "NEARESTEXIT",
+      "name": "Nearest Exit",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-16 08:03:38"
     }
   ]
 }
