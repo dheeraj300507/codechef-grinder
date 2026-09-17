@@ -1,5 +1,5 @@
 {
-  "total_solved": 180,
+  "total_solved": 184,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -180,7 +180,11 @@
     "HAPPYSTR",
     "EQUALDIST",
     "LASTLEVELS",
-    "TRAVELFAST"
+    "TRAVELFAST",
+    "TABLETS",
+    "PARLIAMENT",
+    "ELECTN",
+    "DOLL"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -1444,6 +1448,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-17 17:50:23"
+    },
+    {
+      "code": "TABLETS",
+      "name": "Multivitamin Tablets",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-17 20:35:22"
+    },
+    {
+      "code": "PARLIAMENT",
+      "name": "Parliament",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-17 20:37:11"
+    },
+    {
+      "code": "ELECTN",
+      "name": "Elections in Chefland",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-17 20:38:42"
+    },
+    {
+      "code": "DOLL",
+      "name": "Red Light, Green Light",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-17 20:40:13"
     }
   ]
 }
