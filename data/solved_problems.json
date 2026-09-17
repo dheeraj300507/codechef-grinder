@@ -1,5 +1,5 @@
 {
-  "total_solved": 170,
+  "total_solved": 176,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -170,7 +170,13 @@
     "FCTRL",
     "TFPAPER",
     "DNASTORAGE",
-    "COMPLEXITY"
+    "COMPLEXITY",
+    "NIBBLE",
+    "TCKTFINE",
+    "FINDSHOES",
+    "INVESTMENT",
+    "BUDGET_",
+    "RATINGINPRAC"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -1364,6 +1370,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-17 09:47:53"
+    },
+    {
+      "code": "NIBBLE",
+      "name": "Good Program",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-17 14:16:28"
+    },
+    {
+      "code": "TCKTFINE",
+      "name": "Ticket Fine",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-17 14:19:05"
+    },
+    {
+      "code": "FINDSHOES",
+      "name": "Finding Shoes",
+      "status": "Accepted",
+      "attempts": 3,
+      "time": "2026-09-17 14:22:07"
+    },
+    {
+      "code": "INVESTMENT",
+      "name": "Good Investment or Not",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-17 14:23:06"
+    },
+    {
+      "code": "BUDGET_",
+      "name": "Monthly Budget",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-17 14:24:10"
+    },
+    {
+      "code": "RATINGINPRAC",
+      "name": "Difficulty Rating Order",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-17 14:26:06"
     }
   ]
 }
