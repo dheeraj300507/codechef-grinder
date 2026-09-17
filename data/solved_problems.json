@@ -1,5 +1,5 @@
 {
-  "total_solved": 164,
+  "total_solved": 170,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -164,7 +164,13 @@
     "CHRISTGREET",
     "COUGAME",
     "MOVIE2X",
-    "MINCARS"
+    "MINCARS",
+    "MONOPOLY2",
+    "XJUMP",
+    "FCTRL",
+    "TFPAPER",
+    "DNASTORAGE",
+    "COMPLEXITY"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -1316,6 +1322,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-16 20:27:15"
+    },
+    {
+      "code": "MONOPOLY2",
+      "name": "Monopoly",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-17 09:40:03"
+    },
+    {
+      "code": "XJUMP",
+      "name": "X Jumps",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-17 09:41:42"
+    },
+    {
+      "code": "FCTRL",
+      "name": "Factorial",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-17 09:42:40"
+    },
+    {
+      "code": "TFPAPER",
+      "name": "True and False Paper",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-17 09:44:38"
+    },
+    {
+      "code": "DNASTORAGE",
+      "name": "DNA Storage",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-17 09:46:11"
+    },
+    {
+      "code": "COMPLEXITY",
+      "name": "Time Complexity",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-17 09:47:53"
     }
   ]
 }
