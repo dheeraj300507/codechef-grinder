@@ -1,5 +1,5 @@
 {
-  "total_solved": 176,
+  "total_solved": 180,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -176,7 +176,11 @@
     "FINDSHOES",
     "INVESTMENT",
     "BUDGET_",
-    "RATINGINPRAC"
+    "RATINGINPRAC",
+    "HAPPYSTR",
+    "EQUALDIST",
+    "LASTLEVELS",
+    "TRAVELFAST"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -1412,6 +1416,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-17 14:26:06"
+    },
+    {
+      "code": "HAPPYSTR",
+      "name": "Chef and Happy String ",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-17 17:45:41"
+    },
+    {
+      "code": "EQUALDIST",
+      "name": "Equal Distribution",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-17 17:47:40"
+    },
+    {
+      "code": "LASTLEVELS",
+      "name": "The Last Levels",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-17 17:49:08"
+    },
+    {
+      "code": "TRAVELFAST",
+      "name": "Car or Bike",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-17 17:50:23"
     }
   ]
 }
