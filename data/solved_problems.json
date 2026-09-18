@@ -1,5 +1,5 @@
 {
-  "total_solved": 195,
+  "total_solved": 199,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -195,7 +195,11 @@
     "QUALIFY",
     "DOREWARD",
     "MAXTASTE",
-    "CHEFBOTTLE"
+    "CHEFBOTTLE",
+    "TASTEDEC",
+    "ASSIGNMNT",
+    "OCTATHON",
+    "PROINC"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -1564,6 +1568,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-18 13:38:40"
+    },
+    {
+      "code": "TASTEDEC",
+      "name": "Tasty Decisions",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-18 17:17:08"
+    },
+    {
+      "code": "ASSIGNMNT",
+      "name": "Pending Assignments",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-18 17:18:08"
+    },
+    {
+      "code": "OCTATHON",
+      "name": "October Marathon",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-18 17:19:53"
+    },
+    {
+      "code": "PROINC",
+      "name": "Profit Increment",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-18 17:21:16"
     }
   ]
 }
