@@ -1,5 +1,5 @@
 {
-  "total_solved": 184,
+  "total_solved": 190,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -184,7 +184,13 @@
     "TABLETS",
     "PARLIAMENT",
     "ELECTN",
-    "DOLL"
+    "DOLL",
+    "NUM239",
+    "CHEFSCORE",
+    "WGHTS",
+    "PODIUM",
+    "KITCHENSPICE",
+    "MONOPOLY"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -1476,6 +1482,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-17 20:40:13"
+    },
+    {
+      "code": "NUM239",
+      "name": "Counting Pretty Numbers",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-18 09:13:23"
+    },
+    {
+      "code": "CHEFSCORE",
+      "name": "Test Score",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-18 09:15:06"
+    },
+    {
+      "code": "WGHTS",
+      "name": "Weights",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-18 09:16:43"
+    },
+    {
+      "code": "PODIUM",
+      "name": "Podium Finish",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-18 09:18:01"
+    },
+    {
+      "code": "KITCHENSPICE",
+      "name": "Spice Level",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-18 09:18:58"
+    },
+    {
+      "code": "MONOPOLY",
+      "name": "Monopoly in Chefland",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-18 09:20:50"
     }
   ]
 }
