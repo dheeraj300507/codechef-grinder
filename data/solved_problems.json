@@ -1,5 +1,5 @@
 {
-  "total_solved": 216,
+  "total_solved": 221,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -216,12 +216,18 @@
     "MANGOES",
     "MAXDIFFMIN",
     "SONGS",
-    "CGYM"
+    "CGYM",
+    "ENSPACE",
+    "FLIPCARDS",
+    "APPLORNG",
+    "AIRHOCKEY",
+    "AIRLINES"
   ],
   "failed_codes": [
     "CCLEARN",
     "KITCHENCOST",
-    "CREDS"
+    "CREDS",
+    "ODDSUMPAIR"
   ],
   "history": [
     {
@@ -1732,6 +1738,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-19 13:10:54"
+    },
+    {
+      "code": "ENSPACE",
+      "name": "Enough Space",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-19 16:50:09"
+    },
+    {
+      "code": "FLIPCARDS",
+      "name": "Flip the cards",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-19 16:51:19"
+    },
+    {
+      "code": "APPLORNG",
+      "name": "Apples and Oranges",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-19 16:52:40"
+    },
+    {
+      "code": "AIRHOCKEY",
+      "name": "Air Hockey",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-19 16:53:34"
+    },
+    {
+      "code": "AIRLINES",
+      "name": "Codechef Airlines",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-19 16:55:31"
     }
   ]
 }
