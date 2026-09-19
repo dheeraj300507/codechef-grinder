@@ -1,5 +1,5 @@
 {
-  "total_solved": 221,
+  "total_solved": 224,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -221,7 +221,10 @@
     "FLIPCARDS",
     "APPLORNG",
     "AIRHOCKEY",
-    "AIRLINES"
+    "AIRLINES",
+    "CHESSDIST",
+    "BLACKJACK",
+    "BUILDINGRACE"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -1773,6 +1776,27 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-19 16:55:31"
+    },
+    {
+      "code": "CHESSDIST",
+      "name": "Chessboard Distance",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-19 19:37:29"
+    },
+    {
+      "code": "BLACKJACK",
+      "name": "Blackjack",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-19 19:39:20"
+    },
+    {
+      "code": "BUILDINGRACE",
+      "name": "Building Race",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-19 19:41:08"
     }
   ]
 }
