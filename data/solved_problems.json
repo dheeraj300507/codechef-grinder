@@ -1,5 +1,5 @@
 {
-  "total_solved": 210,
+  "total_solved": 216,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -210,7 +210,13 @@
     "DOMINANT",
     "HORSES",
     "MANGOLASSI",
-    "FLOW005"
+    "FLOW005",
+    "BATH",
+    "JENGA",
+    "MANGOES",
+    "MAXDIFFMIN",
+    "SONGS",
+    "CGYM"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -1684,6 +1690,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-19 09:06:41"
+    },
+    {
+      "code": "BATH",
+      "name": "Bath in Winters",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-19 13:03:44"
+    },
+    {
+      "code": "JENGA",
+      "name": "Jenga Night",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-19 13:05:35"
+    },
+    {
+      "code": "MANGOES",
+      "name": "The Mango Truck",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-19 13:06:56"
+    },
+    {
+      "code": "MAXDIFFMIN",
+      "name": "Max minus Min",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-19 13:08:29"
+    },
+    {
+      "code": "SONGS",
+      "name": "Playlist",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-19 13:10:02"
+    },
+    {
+      "code": "CGYM",
+      "name": "Chef and Gym",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-19 13:10:54"
     }
   ]
 }
