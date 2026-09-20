@@ -1,5 +1,5 @@
 {
-  "total_solved": 233,
+  "total_solved": 239,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -233,7 +233,13 @@
     "SELFDEF",
     "EXPIRY",
     "VALENTINE",
-    "SEATNUMBER"
+    "SEATNUMBER",
+    "TRANSFORM",
+    "CRICUP",
+    "JOHNY",
+    "EMAILREM",
+    "CYCLICQD",
+    "AORB"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -1869,6 +1875,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-20 13:39:14"
+    },
+    {
+      "code": "TRANSFORM",
+      "name": "Mario and Transformation",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-20 17:02:40"
+    },
+    {
+      "code": "CRICUP",
+      "name": "Cup Finals",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-20 17:04:25"
+    },
+    {
+      "code": "JOHNY",
+      "name": "Uncle Johny",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-20 17:06:02"
+    },
+    {
+      "code": "EMAILREM",
+      "name": "Email Reminders",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-20 17:07:34"
+    },
+    {
+      "code": "CYCLICQD",
+      "name": "Cyclic Quadrilateral",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-20 17:09:26"
+    },
+    {
+      "code": "AORB",
+      "name": "A or B",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-20 17:11:07"
     }
   ]
 }
