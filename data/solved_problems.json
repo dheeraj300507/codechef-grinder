@@ -1,5 +1,5 @@
 {
-  "total_solved": 224,
+  "total_solved": 228,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -224,7 +224,11 @@
     "AIRLINES",
     "CHESSDIST",
     "BLACKJACK",
-    "BUILDINGRACE"
+    "BUILDINGRACE",
+    "CIELRCPT",
+    "COMPRESSVD",
+    "IDESM",
+    "CS2023_GIFT"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -1797,6 +1801,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-19 19:41:08"
+    },
+    {
+      "code": "CIELRCPT",
+      "name": "Ciel and Receipt",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-20 09:28:27"
+    },
+    {
+      "code": "COMPRESSVD",
+      "name": "Compress the Video",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-20 09:29:49"
+    },
+    {
+      "code": "IDESM",
+      "name": "The Ides of March",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-20 09:31:35"
+    },
+    {
+      "code": "CS2023_GIFT",
+      "name": "The Gift",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-20 09:33:23"
     }
   ]
 }
