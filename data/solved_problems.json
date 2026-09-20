@@ -1,5 +1,5 @@
 {
-  "total_solved": 239,
+  "total_solved": 244,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -239,7 +239,12 @@
     "JOHNY",
     "EMAILREM",
     "CYCLICQD",
-    "AORB"
+    "AORB",
+    "BULLET",
+    "SPEEDTEST",
+    "ADVANCE",
+    "SEVENRINGS",
+    "C_RATING"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -1917,6 +1922,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-20 17:11:07"
+    },
+    {
+      "code": "BULLET",
+      "name": "Mario and Bullet",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-20 19:48:51"
+    },
+    {
+      "code": "SPEEDTEST",
+      "name": "Speed Limit Test",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-20 19:51:23"
+    },
+    {
+      "code": "ADVANCE",
+      "name": "Rating Improvement",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-20 19:53:13"
+    },
+    {
+      "code": "SEVENRINGS",
+      "name": "7 Rings",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-20 19:54:02"
+    },
+    {
+      "code": "C_RATING",
+      "name": "Chess Ratings",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-20 19:55:14"
     }
   ]
 }
