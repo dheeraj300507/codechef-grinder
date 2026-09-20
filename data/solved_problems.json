@@ -1,5 +1,5 @@
 {
-  "total_solved": 228,
+  "total_solved": 233,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -228,7 +228,12 @@
     "CIELRCPT",
     "COMPRESSVD",
     "IDESM",
-    "CS2023_GIFT"
+    "CS2023_GIFT",
+    "FLOORS",
+    "SELFDEF",
+    "EXPIRY",
+    "VALENTINE",
+    "SEATNUMBER"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -1829,6 +1834,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-20 09:33:23"
+    },
+    {
+      "code": "FLOORS",
+      "name": "Too many Floors",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-20 13:33:29"
+    },
+    {
+      "code": "SELFDEF",
+      "name": "Self Defence Training",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-20 13:35:09"
+    },
+    {
+      "code": "EXPIRY",
+      "name": "Expiring Bread",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-20 13:36:17"
+    },
+    {
+      "code": "VALENTINE",
+      "name": "Valentine is Coming",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-20 13:37:19"
+    },
+    {
+      "code": "SEATNUMBER",
+      "name": "Bus  Seat Numbering",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-20 13:39:14"
     }
   ]
 }
