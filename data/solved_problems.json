@@ -1,5 +1,5 @@
 {
-  "total_solved": 252,
+  "total_solved": 256,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -252,7 +252,11 @@
     "CNDY",
     "T20MCH",
     "PPSUM",
-    "LAZYCHF"
+    "LAZYCHF",
+    "HEALSE",
+    "AIRLINE",
+    "CHEFRACES",
+    "REMISS"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -2021,6 +2025,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-21 15:57:58"
+    },
+    {
+      "code": "HEALSE",
+      "name": "Healthy Sleep",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-21 18:56:06"
+    },
+    {
+      "code": "AIRLINE",
+      "name": "Airline Restrictions",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-21 18:57:45"
+    },
+    {
+      "code": "CHEFRACES",
+      "name": "Chef and Races",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-21 18:58:48"
+    },
+    {
+      "code": "REMISS",
+      "name": "Chef and Remissness",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-21 19:00:24"
     }
   ]
 }
