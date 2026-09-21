@@ -1,5 +1,5 @@
 {
-  "total_solved": 248,
+  "total_solved": 252,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -248,7 +248,11 @@
     "WATERCOOLER2",
     "NEWSPAPER",
     "FOOTCUP",
-    "DIFFCONSEC"
+    "DIFFCONSEC",
+    "CNDY",
+    "T20MCH",
+    "PPSUM",
+    "LAZYCHF"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -1989,6 +1993,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-21 10:23:37"
+    },
+    {
+      "code": "CNDY",
+      "name": "Candies",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-21 15:52:03"
+    },
+    {
+      "code": "T20MCH",
+      "name": "Possible Victory",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-21 15:54:13"
+    },
+    {
+      "code": "PPSUM",
+      "name": "Puppy and Sum",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-21 15:56:27"
+    },
+    {
+      "code": "LAZYCHF",
+      "name": "Lazy Chef",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-21 15:57:58"
     }
   ]
 }
