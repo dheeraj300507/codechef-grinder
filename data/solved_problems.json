@@ -1,5 +1,5 @@
 {
-  "total_solved": 244,
+  "total_solved": 248,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -244,7 +244,11 @@
     "SPEEDTEST",
     "ADVANCE",
     "SEVENRINGS",
-    "C_RATING"
+    "C_RATING",
+    "WATERCOOLER2",
+    "NEWSPAPER",
+    "FOOTCUP",
+    "DIFFCONSEC"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -1957,6 +1961,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-20 19:55:14"
+    },
+    {
+      "code": "WATERCOOLER2",
+      "name": "The Cooler Dilemma 2",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-21 10:13:30"
+    },
+    {
+      "code": "NEWSPAPER",
+      "name": "Sports Section",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-21 10:19:08"
+    },
+    {
+      "code": "FOOTCUP",
+      "name": "Football Cup",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-21 10:20:59"
+    },
+    {
+      "code": "DIFFCONSEC",
+      "name": "Different Consecutive Characters ",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-21 10:23:37"
     }
   ]
 }
