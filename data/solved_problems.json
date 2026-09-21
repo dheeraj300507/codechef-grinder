@@ -1,5 +1,5 @@
 {
-  "total_solved": 256,
+  "total_solved": 262,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -256,7 +256,13 @@
     "HEALSE",
     "AIRLINE",
     "CHEFRACES",
-    "REMISS"
+    "REMISS",
+    "DNASTRAND",
+    "ADVITIYA1",
+    "COCONUT",
+    "ACPLZ",
+    "POLYBAGS",
+    "PASSTHEEXAM"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -2053,6 +2059,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-21 19:00:24"
+    },
+    {
+      "code": "DNASTRAND",
+      "name": "Complementary Strand in a DNA",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-21 21:15:27"
+    },
+    {
+      "code": "ADVITIYA1",
+      "name": "Advitiya",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-21 21:16:51"
+    },
+    {
+      "code": "COCONUT",
+      "name": "Summer Heat",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-21 21:18:32"
+    },
+    {
+      "code": "ACPLZ",
+      "name": "AC Please",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-21 21:20:00"
+    },
+    {
+      "code": "POLYBAGS",
+      "name": "Too many items",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-21 21:21:28"
+    },
+    {
+      "code": "PASSTHEEXAM",
+      "name": "Pass the Exam",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-21 21:22:30"
     }
   ]
 }
