@@ -1,5 +1,5 @@
 {
-  "total_solved": 262,
+  "total_solved": 268,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -262,7 +262,13 @@
     "COCONUT",
     "ACPLZ",
     "POLYBAGS",
-    "PASSTHEEXAM"
+    "PASSTHEEXAM",
+    "FILLCANDIES",
+    "WCC",
+    "THALA7",
+    "CODECHEF",
+    "CIELAB",
+    "CHEFAPPS"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -2101,6 +2107,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-21 21:22:30"
+    },
+    {
+      "code": "FILLCANDIES",
+      "name": "Fill Candies",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-22 09:29:29"
+    },
+    {
+      "code": "WCC",
+      "name": "World Chess Championship",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-22 09:30:36"
+    },
+    {
+      "code": "THALA7",
+      "name": "Thala For A Reason",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-22 09:31:38"
+    },
+    {
+      "code": "CODECHEF",
+      "name": "Codechef Round",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-22 09:33:11"
+    },
+    {
+      "code": "CIELAB",
+      "name": "Ciel and A-B Problem",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-22 09:34:16"
+    },
+    {
+      "code": "CHEFAPPS",
+      "name": "Chef and his Apps",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-22 09:36:10"
     }
   ]
 }
