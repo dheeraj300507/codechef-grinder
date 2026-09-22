@@ -1,5 +1,5 @@
 {
-  "total_solved": 274,
+  "total_solved": 278,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -274,13 +274,18 @@
     "RCBPLAY",
     "SHOPCHANGE",
     "CHEFEREN",
-    "SPCP2"
+    "SPCP2",
+    "HIGHSCORE",
+    "WATSCORE",
+    "ZCOSCH",
+    "HDIVISR"
   ],
   "failed_codes": [
     "CCLEARN",
     "KITCHENCOST",
     "CREDS",
-    "ODDSUMPAIR"
+    "ODDSUMPAIR",
+    "CHEFPAROLE"
   ],
   "history": [
     {
@@ -2197,6 +2202,34 @@
       "status": "Accepted",
       "attempts": 3,
       "time": "2026-09-22 14:18:16"
+    },
+    {
+      "code": "HIGHSCORE",
+      "name": "Score High",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-22 17:51:04"
+    },
+    {
+      "code": "WATSCORE",
+      "name": "That Is My Score!",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-22 17:52:09"
+    },
+    {
+      "code": "ZCOSCH",
+      "name": "How much Scholarship",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-22 17:53:40"
+    },
+    {
+      "code": "HDIVISR",
+      "name": "Highest Divisor",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-22 17:54:50"
     }
   ]
 }
