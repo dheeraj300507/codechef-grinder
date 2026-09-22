@@ -1,5 +1,5 @@
 {
-  "total_solved": 268,
+  "total_solved": 274,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -268,7 +268,13 @@
     "THALA7",
     "CODECHEF",
     "CIELAB",
-    "CHEFAPPS"
+    "CHEFAPPS",
+    "CANCHEF",
+    "DPOLY",
+    "RCBPLAY",
+    "SHOPCHANGE",
+    "CHEFEREN",
+    "SPCP2"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -2149,6 +2155,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-22 09:36:10"
+    },
+    {
+      "code": "CANCHEF",
+      "name": "Can Chef ",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-22 14:03:02"
+    },
+    {
+      "code": "DPOLY",
+      "name": "Degree of Polynomial",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-22 14:04:43"
+    },
+    {
+      "code": "RCBPLAY",
+      "name": "RCB and Playoffs",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-22 14:06:24"
+    },
+    {
+      "code": "SHOPCHANGE",
+      "name": "Shopping Change",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-22 14:08:46"
+    },
+    {
+      "code": "CHEFEREN",
+      "name": "Chef Eren",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-22 14:14:07"
+    },
+    {
+      "code": "SPCP2",
+      "name": "Airlines",
+      "status": "Accepted",
+      "attempts": 3,
+      "time": "2026-09-22 14:18:16"
     }
   ]
 }
