@@ -1,5 +1,5 @@
 {
-  "total_solved": 278,
+  "total_solved": 282,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -278,7 +278,11 @@
     "HIGHSCORE",
     "WATSCORE",
     "ZCOSCH",
-    "HDIVISR"
+    "HDIVISR",
+    "CHEFSTLT",
+    "FLOW011",
+    "GOLDCOINS",
+    "TRISQ"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -2230,6 +2234,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-22 17:54:50"
+    },
+    {
+      "code": "CHEFSTLT",
+      "name": "Chef and Two Strings",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-22 20:30:21"
+    },
+    {
+      "code": "FLOW011",
+      "name": "Gross Salary",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-22 20:31:26"
+    },
+    {
+      "code": "GOLDCOINS",
+      "name": "Gold Coins 101",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-22 20:32:52"
+    },
+    {
+      "code": "TRISQ",
+      "name": "Fit Squares in Triangle",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-22 20:33:49"
     }
   ]
 }
