@@ -1,5 +1,5 @@
 {
-  "total_solved": 286,
+  "total_solved": 291,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -286,7 +286,12 @@
     "FIZZBUZZ2303",
     "WTRMIXING",
     "EXAMTIME",
-    "GLPR"
+    "GLPR",
+    "MINWAGE",
+    "VOWELTB",
+    "FLOW009",
+    "TYRES",
+    "WATERCOOLER1"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -2299,6 +2304,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-23 09:41:31"
+    },
+    {
+      "code": "MINWAGE",
+      "name": "Minimum Wage",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-23 17:59:41"
+    },
+    {
+      "code": "VOWELTB",
+      "name": "Is it a VOWEL or CONSONANT",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-23 18:00:58"
+    },
+    {
+      "code": "FLOW009",
+      "name": "Total Expenses",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-23 18:03:15"
+    },
+    {
+      "code": "TYRES",
+      "name": "Cars and Bikes",
+      "status": "Accepted",
+      "attempts": 3,
+      "time": "2026-09-23 18:06:42"
+    },
+    {
+      "code": "WATERCOOLER1",
+      "name": "The Cooler Dilemma 1",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-23 18:08:24"
     }
   ]
 }
