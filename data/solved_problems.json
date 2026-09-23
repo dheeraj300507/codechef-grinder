@@ -1,5 +1,5 @@
 {
-  "total_solved": 282,
+  "total_solved": 286,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -282,7 +282,11 @@
     "CHEFSTLT",
     "FLOW011",
     "GOLDCOINS",
-    "TRISQ"
+    "TRISQ",
+    "FIZZBUZZ2303",
+    "WTRMIXING",
+    "EXAMTIME",
+    "GLPR"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -2262,6 +2266,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-22 20:33:49"
+    },
+    {
+      "code": "FIZZBUZZ2303",
+      "name": "Chef Fantasy 11",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-23 09:34:22"
+    },
+    {
+      "code": "WTRMIXING",
+      "name": "Water Mixing",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-23 09:36:37"
+    },
+    {
+      "code": "EXAMTIME",
+      "name": "TCS Examination",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-23 09:38:13"
+    },
+    {
+      "code": "GLPR",
+      "name": "Glass Prices",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-23 09:41:31"
     }
   ]
 }
