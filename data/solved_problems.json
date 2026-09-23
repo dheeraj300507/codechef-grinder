@@ -1,5 +1,5 @@
 {
-  "total_solved": 291,
+  "total_solved": 294,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -291,7 +291,10 @@
     "VOWELTB",
     "FLOW009",
     "TYRES",
-    "WATERCOOLER1"
+    "WATERCOOLER1",
+    "CS2023_STK",
+    "PERFECTTRIO",
+    "PRESENTS"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -2339,6 +2342,27 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-23 18:08:24"
+    },
+    {
+      "code": "CS2023_STK",
+      "name": "CodeChef Streak",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-23 20:43:31"
+    },
+    {
+      "code": "PERFECTTRIO",
+      "name": "Perfect Trio",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-23 20:45:10"
+    },
+    {
+      "code": "PRESENTS",
+      "name": "Presents for Cheffina",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-23 20:51:21"
     }
   ]
 }
