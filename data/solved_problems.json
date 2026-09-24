@@ -1,5 +1,5 @@
 {
-  "total_solved": 294,
+  "total_solved": 300,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -294,7 +294,13 @@
     "WATERCOOLER1",
     "CS2023_STK",
     "PERFECTTRIO",
-    "PRESENTS"
+    "PRESENTS",
+    "FLOW014",
+    "ONP",
+    "IOI2024",
+    "VARDIGS",
+    "SWEETSHOP",
+    "ELECTIONS"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -2363,6 +2369,48 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-09-23 20:51:21"
+    },
+    {
+      "code": "FLOW014",
+      "name": "Grade The Steel",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-24 09:33:58"
+    },
+    {
+      "code": "ONP",
+      "name": "Transform the Expression",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-24 09:35:22"
+    },
+    {
+      "code": "IOI2024",
+      "name": "IOI 2024",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-24 09:36:24"
+    },
+    {
+      "code": "VARDIGS",
+      "name": "Varied Digits",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-24 09:38:16"
+    },
+    {
+      "code": "SWEETSHOP",
+      "name": "Sweets Shop",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-24 09:39:40"
+    },
+    {
+      "code": "ELECTIONS",
+      "name": "Elections in Chefland",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-24 09:41:38"
     }
   ]
 }
