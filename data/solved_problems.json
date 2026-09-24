@@ -1,5 +1,5 @@
 {
-  "total_solved": 300,
+  "total_solved": 301,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -300,7 +300,8 @@
     "IOI2024",
     "VARDIGS",
     "SWEETSHOP",
-    "ELECTIONS"
+    "ELECTIONS",
+    "SALE"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -317,7 +318,8 @@
     "BETDEAL",
     "DIET",
     "CCOV",
-    "ICECONE"
+    "ICECONE",
+    "CANDY123"
   ],
   "history": [
     {
@@ -2416,6 +2418,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-24 09:41:38"
+    },
+    {
+      "code": "SALE",
+      "name": "Get Lowest Free",
+      "status": "Accepted",
+      "attempts": 3,
+      "time": "2026-09-24 18:12:47"
     }
   ]
 }
