@@ -1,5 +1,5 @@
 {
-  "total_solved": 319,
+  "total_solved": 323,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -319,7 +319,11 @@
     "SINGLEUSE",
     "RUSHTOEXAM",
     "TWOVSTEN",
-    "GDOG"
+    "GDOG",
+    "REACHFAST",
+    "OLYRANK",
+    "VAL114",
+    "BREAKSTICK"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -2570,6 +2574,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-25 18:08:51"
+    },
+    {
+      "code": "REACHFAST",
+      "name": "Reach fast",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-25 20:46:26"
+    },
+    {
+      "code": "OLYRANK",
+      "name": "Olympics Ranking",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-25 20:47:22"
+    },
+    {
+      "code": "VAL114",
+      "name": "Valentines Contest",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-25 20:49:20"
+    },
+    {
+      "code": "BREAKSTICK",
+      "name": "Break the Stick",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-25 20:51:13"
     }
   ]
 }
