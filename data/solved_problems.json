@@ -1,5 +1,5 @@
 {
-  "total_solved": 311,
+  "total_solved": 316,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -311,7 +311,12 @@
     "RECTANGL",
     "SUMTRIAN",
     "SUPCHEF",
-    "MINFLIPS"
+    "MINFLIPS",
+    "HEADBOB",
+    "ADJSUMPAR",
+    "CONFLIP",
+    "XYSTR",
+    "SINGLEUSE"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -2506,6 +2511,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-25 09:59:15"
+    },
+    {
+      "code": "HEADBOB",
+      "name": "Tanu and Head-bob",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-25 14:34:40"
+    },
+    {
+      "code": "ADJSUMPAR",
+      "name": "Adjacent Sum Parity",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-25 14:36:16"
+    },
+    {
+      "code": "CONFLIP",
+      "name": "Coin Flip",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-25 14:38:07"
+    },
+    {
+      "code": "XYSTR",
+      "name": "Chef and String",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-25 14:39:53"
+    },
+    {
+      "code": "SINGLEUSE",
+      "name": "Single-use Attack",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-25 14:41:01"
     }
   ]
 }
