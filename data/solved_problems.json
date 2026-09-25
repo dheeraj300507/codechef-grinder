@@ -1,5 +1,5 @@
 {
-  "total_solved": 316,
+  "total_solved": 319,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -316,7 +316,10 @@
     "ADJSUMPAR",
     "CONFLIP",
     "XYSTR",
-    "SINGLEUSE"
+    "SINGLEUSE",
+    "RUSHTOEXAM",
+    "TWOVSTEN",
+    "GDOG"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -2546,6 +2549,27 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-25 14:41:01"
+    },
+    {
+      "code": "RUSHTOEXAM",
+      "name": "Rush to Exam",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-25 18:06:29"
+    },
+    {
+      "code": "TWOVSTEN",
+      "name": "Two vs Ten",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-25 18:07:21"
+    },
+    {
+      "code": "GDOG",
+      "name": "Greedy puppy",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-25 18:08:51"
     }
   ]
 }
