@@ -1,5 +1,5 @@
 {
-  "total_solved": 338,
+  "total_solved": 342,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -338,7 +338,11 @@
     "P1149",
     "DEVDON",
     "PLAYSTR",
-    "CHEAT"
+    "CHEAT",
+    "DISTINCTCOL",
+    "ELHP",
+    "WEIGHTLIFT",
+    "ICECONE6"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -2722,6 +2726,34 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-09-26 17:31:05"
+    },
+    {
+      "code": "DISTINCTCOL",
+      "name": "Distinct Colors",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-26 20:10:49"
+    },
+    {
+      "code": "ELHP",
+      "name": "Election Hopes",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-26 20:12:00"
+    },
+    {
+      "code": "WEIGHTLIFT",
+      "name": "Weightlifting",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-26 20:13:25"
+    },
+    {
+      "code": "ICECONE6",
+      "name": "IceCream Cones",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-26 20:14:50"
     }
   ]
 }
