@@ -1,5 +1,5 @@
 {
-  "total_solved": 333,
+  "total_solved": 338,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -333,7 +333,12 @@
     "LUCLO",
     "CRICKETUDYAM",
     "PRIMEREVERSE",
-    "PRIMEDICE"
+    "PRIMEDICE",
+    "CUTPAPER",
+    "P1149",
+    "DEVDON",
+    "PLAYSTR",
+    "CHEAT"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -2682,6 +2687,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-26 13:48:03"
+    },
+    {
+      "code": "CUTPAPER",
+      "name": "Paper Cutting",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-26 17:24:59"
+    },
+    {
+      "code": "P1149",
+      "name": "Approximate Answer",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-26 17:26:25"
+    },
+    {
+      "code": "DEVDON",
+      "name": "Devouring Donuts",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-26 17:28:03"
+    },
+    {
+      "code": "PLAYSTR",
+      "name": "Playing with Strings",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-26 17:29:09"
+    },
+    {
+      "code": "CHEAT",
+      "name": "Dracula Eats",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-26 17:31:05"
     }
   ]
 }
