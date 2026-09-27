@@ -1,5 +1,5 @@
 {
-  "total_solved": 351,
+  "total_solved": 355,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -351,7 +351,11 @@
     "SOCKS1",
     "NGRS",
     "IED",
-    "AREAPERI"
+    "AREAPERI",
+    "COLDPLAYTICK",
+    "MSNSADM1",
+    "BINPARITY",
+    "LOCKDRAW"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -2826,6 +2830,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-27 14:45:25"
+    },
+    {
+      "code": "COLDPLAYTICK",
+      "name": "Coldplay Tickets",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-27 17:57:13"
+    },
+    {
+      "code": "MSNSADM1",
+      "name": "Football",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-27 17:58:17"
+    },
+    {
+      "code": "BINPARITY",
+      "name": "Binary Parity",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-27 18:00:25"
+    },
+    {
+      "code": "LOCKDRAW",
+      "name": "Chef and Lockout Draws",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-27 18:02:34"
     }
   ]
 }
