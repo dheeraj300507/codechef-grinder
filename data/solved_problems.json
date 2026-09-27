@@ -1,5 +1,5 @@
 {
-  "total_solved": 355,
+  "total_solved": 359,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -355,7 +355,11 @@
     "COLDPLAYTICK",
     "MSNSADM1",
     "BINPARITY",
-    "LOCKDRAW"
+    "LOCKDRAW",
+    "CUTOFF",
+    "OLYMPICS24",
+    "EQUALISE",
+    "SLOWSOLN"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -2858,6 +2862,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-27 18:02:34"
+    },
+    {
+      "code": "CUTOFF",
+      "name": "Passing Marks",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-27 20:27:07"
+    },
+    {
+      "code": "OLYMPICS24",
+      "name": "Olympics 2024",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-27 20:28:08"
+    },
+    {
+      "code": "EQUALISE",
+      "name": "Make A and B equal",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-27 20:29:28"
+    },
+    {
+      "code": "SLOWSOLN",
+      "name": "Slow Solution",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-27 20:31:24"
     }
   ]
 }
