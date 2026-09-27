@@ -1,5 +1,5 @@
 {
-  "total_solved": 346,
+  "total_solved": 351,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -346,7 +346,12 @@
     "REMOVECARDS",
     "BALLBOX",
     "EXPENSES",
-    "LONGSEQ"
+    "LONGSEQ",
+    "NEWCC",
+    "SOCKS1",
+    "NGRS",
+    "IED",
+    "AREAPERI"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -2786,6 +2791,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-27 10:17:56"
+    },
+    {
+      "code": "NEWCC",
+      "name": "All New CodeChef",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-27 14:40:12"
+    },
+    {
+      "code": "SOCKS1",
+      "name": "Valid Pair",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-27 14:42:00"
+    },
+    {
+      "code": "NGRS",
+      "name": "50-50 Rule",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-27 14:43:21"
+    },
+    {
+      "code": "IED",
+      "name": "International Education Day!",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-27 14:44:15"
+    },
+    {
+      "code": "AREAPERI",
+      "name": "Area OR Perimeter",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-27 14:45:25"
     }
   ]
 }
