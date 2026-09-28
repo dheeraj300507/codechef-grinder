@@ -1,5 +1,5 @@
 {
-  "total_solved": 372,
+  "total_solved": 376,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -372,7 +372,11 @@
     "CHANGEPOS",
     "CHEFSTR1",
     "BLITZ3_2",
-    "CCISLAND"
+    "CCISLAND",
+    "PBREV",
+    "COVID19",
+    "CLEARANCE",
+    "INCAT"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -2995,6 +2999,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-28 20:24:53"
+    },
+    {
+      "code": "PBREV",
+      "name": "Problem Reviews",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-28 22:39:21"
+    },
+    {
+      "code": "COVID19",
+      "name": "Coronavirus Spread",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-28 22:40:37"
+    },
+    {
+      "code": "CLEARANCE",
+      "name": "Clearance Sale",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-28 22:42:45"
+    },
+    {
+      "code": "INCAT",
+      "name": "Make Cat",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-28 22:44:41"
     }
   ]
 }
