@@ -1,5 +1,5 @@
 {
-  "total_solved": 376,
+  "total_solved": 380,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -376,7 +376,11 @@
     "PBREV",
     "COVID19",
     "CLEARANCE",
-    "INCAT"
+    "INCAT",
+    "NONNEGPROD",
+    "PAYSC",
+    "WECNITK",
+    "MNR"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -3027,6 +3031,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-28 22:44:41"
+    },
+    {
+      "code": "NONNEGPROD",
+      "name": "Non-Negative Product",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-29 10:55:37"
+    },
+    {
+      "code": "PAYSC",
+      "name": "Payment Scheme",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-29 10:57:17"
+    },
+    {
+      "code": "WECNITK",
+      "name": "Access Code Equality",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-29 10:58:58"
+    },
+    {
+      "code": "MNR",
+      "name": "Range Minimize",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-29 11:00:14"
     }
   ]
 }
