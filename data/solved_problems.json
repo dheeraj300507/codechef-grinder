@@ -1,5 +1,5 @@
 {
-  "total_solved": 380,
+  "total_solved": 385,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -380,7 +380,12 @@
     "NONNEGPROD",
     "PAYSC",
     "WECNITK",
-    "MNR"
+    "MNR",
+    "RCBCSK",
+    "PETSTORE",
+    "HEATWAVE",
+    "YOGADAY",
+    "SMLPAL"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -3059,6 +3064,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-29 11:00:14"
+    },
+    {
+      "code": "RCBCSK",
+      "name": "RCB vs CSK ",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-29 15:41:14"
+    },
+    {
+      "code": "PETSTORE",
+      "name": "Pet Store",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-29 15:43:38"
+    },
+    {
+      "code": "HEATWAVE",
+      "name": "Heat Wave",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-29 15:45:33"
+    },
+    {
+      "code": "YOGADAY",
+      "name": "Yoga Day",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-29 15:47:02"
+    },
+    {
+      "code": "SMLPAL",
+      "name": "Small Palindrome",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-29 15:49:32"
     }
   ]
 }
