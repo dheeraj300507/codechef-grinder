@@ -1,5 +1,5 @@
 {
-  "total_solved": 389,
+  "total_solved": 393,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -389,7 +389,11 @@
     "LECANDY",
     "MOVPR",
     "FOODPLAN",
-    "R5S"
+    "R5S",
+    "CRICMATCH",
+    "DOMINANT2",
+    "CASHBACK",
+    "LUCKYFR"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -3131,6 +3135,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-29 18:59:32"
+    },
+    {
+      "code": "CRICMATCH",
+      "name": "Cricket Match",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-29 21:32:49"
+    },
+    {
+      "code": "DOMINANT2",
+      "name": "Dominant Element",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-29 21:37:52"
+    },
+    {
+      "code": "CASHBACK",
+      "name": "Cashback",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-29 21:39:42"
+    },
+    {
+      "code": "LUCKYFR",
+      "name": "Lucky Four",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-29 21:41:52"
     }
   ]
 }
