@@ -1,5 +1,5 @@
 {
-  "total_solved": 385,
+  "total_solved": 389,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -385,7 +385,11 @@
     "PETSTORE",
     "HEATWAVE",
     "YOGADAY",
-    "SMLPAL"
+    "SMLPAL",
+    "LECANDY",
+    "MOVPR",
+    "FOODPLAN",
+    "R5S"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -3099,6 +3103,34 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-09-29 15:49:32"
+    },
+    {
+      "code": "LECANDY",
+      "name": "Little Elephant and Candies",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-29 18:54:44"
+    },
+    {
+      "code": "MOVPR",
+      "name": "Movie Snacks",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-29 18:56:20"
+    },
+    {
+      "code": "FOODPLAN",
+      "name": "Online or Offline",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-29 18:57:57"
+    },
+    {
+      "code": "R5S",
+      "name": "Reach 5 Star",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-29 18:59:32"
     }
   ]
 }
