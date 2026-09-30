@@ -1,5 +1,5 @@
 {
-  "total_solved": 407,
+  "total_solved": 413,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -407,7 +407,13 @@
     "JUSTICE",
     "WINNERR",
     "HOWMANY",
-    "BOX2"
+    "BOX2",
+    "MINBOTTLES",
+    "MODULO3",
+    "LINCHESS",
+    "SPCP1",
+    "EQLZING",
+    "CHEFPAGES"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -3276,6 +3282,48 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-09-30 18:46:03"
+    },
+    {
+      "code": "MINBOTTLES",
+      "name": "Minimum Bottles",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-30 21:33:33"
+    },
+    {
+      "code": "MODULO3",
+      "name": "Divisible by 3",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-30 21:35:10"
+    },
+    {
+      "code": "LINCHESS",
+      "name": "Chef and Linear Chess",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-30 21:36:27"
+    },
+    {
+      "code": "SPCP1",
+      "name": "Water Park",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-30 21:37:30"
+    },
+    {
+      "code": "EQLZING",
+      "name": "Equalizing Numbers",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-30 21:38:54"
+    },
+    {
+      "code": "CHEFPAGES",
+      "name": "Important Pages on CodeChef",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-30 21:40:14"
     }
   ]
 }
