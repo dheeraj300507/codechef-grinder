@@ -1,5 +1,5 @@
 {
-  "total_solved": 393,
+  "total_solved": 398,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -393,7 +393,12 @@
     "CRICMATCH",
     "DOMINANT2",
     "CASHBACK",
-    "LUCKYFR"
+    "LUCKYFR",
+    "CHSFORMT",
+    "SOLBLTY",
+    "P2149",
+    "ADVITIYA2",
+    "CONN"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -3163,6 +3168,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-29 21:41:52"
+    },
+    {
+      "code": "CHSFORMT",
+      "name": "Chess Format",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-30 10:45:32"
+    },
+    {
+      "code": "SOLBLTY",
+      "name": "Solubility",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-30 10:47:31"
+    },
+    {
+      "code": "P2149",
+      "name": "Magical World",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-30 10:49:22"
+    },
+    {
+      "code": "ADVITIYA2",
+      "name": "Judged",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-30 10:50:38"
+    },
+    {
+      "code": "CONN",
+      "name": "Construct N",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-30 10:52:10"
     }
   ]
 }
