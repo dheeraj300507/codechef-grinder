@@ -1,5 +1,5 @@
 {
-  "total_solved": 398,
+  "total_solved": 402,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -398,7 +398,11 @@
     "SOLBLTY",
     "P2149",
     "ADVITIYA2",
-    "CONN"
+    "CONN",
+    "ROOMALLOC",
+    "LUCKYNUM",
+    "EVENTUAL",
+    "RELATIVE"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -418,7 +422,8 @@
     "ICECONE",
     "CANDY123",
     "ANSLEAK",
-    "ACCURACY"
+    "ACCURACY",
+    "QNOT"
   ],
   "history": [
     {
@@ -3203,6 +3208,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-30 10:52:10"
+    },
+    {
+      "code": "ROOMALLOC",
+      "name": "Room Allocation",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-30 15:52:55"
+    },
+    {
+      "code": "LUCKYNUM",
+      "name": "Lucky Number",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-30 15:54:57"
+    },
+    {
+      "code": "EVENTUAL",
+      "name": "Even-tual Reduction",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-30 15:57:05"
+    },
+    {
+      "code": "RELATIVE",
+      "name": "Relativity",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-30 15:58:59"
     }
   ]
 }
