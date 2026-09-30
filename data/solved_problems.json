@@ -1,5 +1,5 @@
 {
-  "total_solved": 402,
+  "total_solved": 407,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -402,7 +402,12 @@
     "ROOMALLOC",
     "LUCKYNUM",
     "EVENTUAL",
-    "RELATIVE"
+    "RELATIVE",
+    "NOTIME",
+    "JUSTICE",
+    "WINNERR",
+    "HOWMANY",
+    "BOX2"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -3236,6 +3241,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-30 15:58:59"
+    },
+    {
+      "code": "NOTIME",
+      "name": "No Time to Wait",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-30 18:37:50"
+    },
+    {
+      "code": "JUSTICE",
+      "name": "International Justice Day",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-30 18:39:50"
+    },
+    {
+      "code": "WINNERR",
+      "name": "Determine the Winner",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-30 18:41:58"
+    },
+    {
+      "code": "HOWMANY",
+      "name": "HOW MANY DIGITS DO I HAVE",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-09-30 18:43:21"
+    },
+    {
+      "code": "BOX2",
+      "name": "2 Boxes",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-09-30 18:46:03"
     }
   ]
 }
