@@ -1,5 +1,5 @@
 {
-  "total_solved": 422,
+  "total_solved": 427,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -422,7 +422,12 @@
     "AP",
     "BROKPHON",
     "SUBAADDB",
-    "LONGQUEUE"
+    "LONGQUEUE",
+    "VIDEOWORTH",
+    "BIRDFARM",
+    "GPUBUY",
+    "ALLEV",
+    "COINS"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -3397,6 +3402,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-01 16:25:54"
+    },
+    {
+      "code": "VIDEOWORTH",
+      "name": "Worth of a Video",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-01 19:04:32"
+    },
+    {
+      "code": "BIRDFARM",
+      "name": "Chef and Bird farm",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-01 19:05:50"
+    },
+    {
+      "code": "GPUBUY",
+      "name": "Buying GPU",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-01 19:07:16"
+    },
+    {
+      "code": "ALLEV",
+      "name": "All Even",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-01 19:08:32"
+    },
+    {
+      "code": "COINS",
+      "name": "Bytelandian gold coins",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-01 19:10:06"
     }
   ]
 }
