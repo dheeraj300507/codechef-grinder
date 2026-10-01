@@ -1,5 +1,5 @@
 {
-  "total_solved": 413,
+  "total_solved": 418,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -413,7 +413,12 @@
     "LINCHESS",
     "SPCP1",
     "EQLZING",
-    "CHEFPAGES"
+    "CHEFPAGES",
+    "GENE01",
+    "CHEFSOCKS",
+    "PRIME1",
+    "CABLE",
+    "FACEDIR"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -434,7 +439,8 @@
     "CANDY123",
     "ANSLEAK",
     "ACCURACY",
-    "QNOT"
+    "QNOT",
+    "INPL"
   ],
   "history": [
     {
@@ -3324,6 +3330,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-09-30 21:40:14"
+    },
+    {
+      "code": "GENE01",
+      "name": "Genes",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-01 11:11:25"
+    },
+    {
+      "code": "CHEFSOCKS",
+      "name": "Chef and Socks",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-01 11:13:25"
+    },
+    {
+      "code": "PRIME1",
+      "name": "Prime Generator",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-01 11:14:31"
+    },
+    {
+      "code": "CABLE",
+      "name": "Volume Comparison",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-01 11:17:27"
+    },
+    {
+      "code": "FACEDIR",
+      "name": "Find the Direction",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-01 11:18:49"
     }
   ]
 }
