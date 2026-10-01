@@ -1,5 +1,5 @@
 {
-  "total_solved": 427,
+  "total_solved": 432,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -427,7 +427,12 @@
     "BIRDFARM",
     "GPUBUY",
     "ALLEV",
-    "COINS"
+    "COINS",
+    "COLORB",
+    "UTKPLC",
+    "KEPLERSLAW",
+    "WRITINGSPEED",
+    "DEVSPORTS"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -3437,6 +3442,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-01 19:10:06"
+    },
+    {
+      "code": "COLORB",
+      "name": "Coloured Orbs",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-01 22:01:11"
+    },
+    {
+      "code": "UTKPLC",
+      "name": "Utkarsh and Placement tests",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-01 22:03:13"
+    },
+    {
+      "code": "KEPLERSLAW",
+      "name": "Keplers Law",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-01 22:04:34"
+    },
+    {
+      "code": "WRITINGSPEED",
+      "name": "Writing Speed",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-01 22:05:37"
+    },
+    {
+      "code": "DEVSPORTS",
+      "name": "Devendra and Water Sports",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-01 22:07:16"
     }
   ]
 }
