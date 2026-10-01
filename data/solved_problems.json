@@ -1,5 +1,5 @@
 {
-  "total_solved": 418,
+  "total_solved": 422,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -418,7 +418,11 @@
     "CHEFSOCKS",
     "PRIME1",
     "CABLE",
-    "FACEDIR"
+    "FACEDIR",
+    "AP",
+    "BROKPHON",
+    "SUBAADDB",
+    "LONGQUEUE"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -3365,6 +3369,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-01 11:18:49"
+    },
+    {
+      "code": "AP",
+      "name": "Make Arithmetic Progression",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-01 16:19:06"
+    },
+    {
+      "code": "BROKPHON",
+      "name": "Broken Telephone",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-01 16:21:05"
+    },
+    {
+      "code": "SUBAADDB",
+      "name": "Sub A Add B",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-01 16:23:50"
+    },
+    {
+      "code": "LONGQUEUE",
+      "name": "Long Queue",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-01 16:25:54"
     }
   ]
 }
