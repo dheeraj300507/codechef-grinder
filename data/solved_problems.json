@@ -1,5 +1,5 @@
 {
-  "total_solved": 436,
+  "total_solved": 441,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -436,7 +436,12 @@
     "SLOOP",
     "ZEROSTRING",
     "EQUALIZEAB",
-    "ALJMP"
+    "ALJMP",
+    "MILEAGE",
+    "CREDITS",
+    "TABLET",
+    "CRCK",
+    "MATCH_ALK"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -3509,6 +3514,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-02 10:49:56"
+    },
+    {
+      "code": "MILEAGE",
+      "name": "Mileage matters",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-02 15:43:17"
+    },
+    {
+      "code": "CREDITS",
+      "name": "Complete the credits",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-02 15:44:47"
+    },
+    {
+      "code": "TABLET",
+      "name": "Buying New Tablet",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-02 15:46:06"
+    },
+    {
+      "code": "CRCK",
+      "name": "Christmas Cake",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-02 15:48:32"
+    },
+    {
+      "code": "MATCH_ALK",
+      "name": "Man of the Match",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-02 15:49:52"
     }
   ]
 }
