@@ -1,5 +1,5 @@
 {
-  "total_solved": 441,
+  "total_solved": 445,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -441,7 +441,11 @@
     "CREDITS",
     "TABLET",
     "CRCK",
-    "MATCH_ALK"
+    "MATCH_ALK",
+    "GIANT",
+    "AVG",
+    "ALLZR",
+    "CPRIVAL"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -3549,6 +3553,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-02 15:49:52"
+    },
+    {
+      "code": "GIANT",
+      "name": "Giant Wheel",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-02 18:43:58"
+    },
+    {
+      "code": "AVG",
+      "name": "Average Number",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-02 18:45:59"
+    },
+    {
+      "code": "ALLZR",
+      "name": "All Zero",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-02 18:47:35"
+    },
+    {
+      "code": "CPRIVAL",
+      "name": "Rivalry",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-02 18:49:11"
     }
   ]
 }
