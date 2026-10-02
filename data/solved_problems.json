@@ -1,5 +1,5 @@
 {
-  "total_solved": 432,
+  "total_solved": 436,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -432,7 +432,11 @@
     "UTKPLC",
     "KEPLERSLAW",
     "WRITINGSPEED",
-    "DEVSPORTS"
+    "DEVSPORTS",
+    "SLOOP",
+    "ZEROSTRING",
+    "EQUALIZEAB",
+    "ALJMP"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -3477,6 +3481,34 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-10-01 22:07:16"
+    },
+    {
+      "code": "SLOOP",
+      "name": "Coldplay",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-02 10:45:05"
+    },
+    {
+      "code": "ZEROSTRING",
+      "name": "Zero String",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-02 10:46:23"
+    },
+    {
+      "code": "EQUALIZEAB",
+      "name": "Equalize AB",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-02 10:48:17"
+    },
+    {
+      "code": "ALJMP",
+      "name": "Alternate Jumps",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-02 10:49:56"
     }
   ]
 }
