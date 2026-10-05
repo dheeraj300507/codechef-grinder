@@ -518,7 +518,12 @@
     "VACCINE2",
     "LITRATE",
     "TCG",
-    "CNOTE"
+    "CNOTE",
+    "BOP2",
+    "MAX6",
+    "ECHOECHO",
+    "AVOIDCONTACT",
+    "RCTGLD"
   ],
   "history": [
     {
