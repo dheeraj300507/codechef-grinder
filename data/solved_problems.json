@@ -523,7 +523,11 @@
     "MAX6",
     "ECHOECHO",
     "AVOIDCONTACT",
-    "RCTGLD"
+    "RCTGLD",
+    "LOOP",
+    "PSGRADE",
+    "MODTEMP",
+    "TV"
   ],
   "history": [
     {
