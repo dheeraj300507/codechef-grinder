@@ -527,7 +527,12 @@
     "LOOP",
     "PSGRADE",
     "MODTEMP",
-    "TV"
+    "TV",
+    "PASSINGGR",
+    "SUPINC",
+    "MATPAN",
+    "NEIREM",
+    "RECTSQ"
   ],
   "history": [
     {
