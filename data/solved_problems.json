@@ -513,7 +513,12 @@
     "MAXFUN",
     "SHOEFIT",
     "TESTSERIES",
-    "FIRSTANDLAST"
+    "FIRSTANDLAST",
+    "REMOVEBAD",
+    "VACCINE2",
+    "LITRATE",
+    "TCG",
+    "CNOTE"
   ],
   "history": [
     {
