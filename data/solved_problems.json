@@ -561,7 +561,13 @@
     "BOWLBALL",
     "CHEFARRP",
     "PERMUT2",
-    "CANDYTYPE"
+    "CANDYTYPE",
+    "SANDWICH7",
+    "SRTARR",
+    "STRP",
+    "FAIRSHARE",
+    "ICE_CREAM",
+    "MAXCOUNT"
   ],
   "history": [
     {
