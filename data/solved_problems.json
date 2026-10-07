@@ -557,7 +557,11 @@
     "OJUMPS",
     "COUNTP",
     "FKMC",
-    "GROUPS"
+    "GROUPS",
+    "BOWLBALL",
+    "CHEFARRP",
+    "PERMUT2",
+    "CANDYTYPE"
   ],
   "history": [
     {
