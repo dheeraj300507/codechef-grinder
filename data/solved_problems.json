@@ -567,7 +567,11 @@
     "STRP",
     "FAIRSHARE",
     "ICE_CREAM",
-    "MAXCOUNT"
+    "MAXCOUNT",
+    "INCREAR",
+    "STICKCOMP",
+    "CHEFBARBER",
+    "ABSTRING"
   ],
   "history": [
     {
