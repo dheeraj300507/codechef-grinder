@@ -571,7 +571,13 @@
     "INCREAR",
     "STICKCOMP",
     "CHEFBARBER",
-    "ABSTRING"
+    "ABSTRING",
+    "EVENPSUM",
+    "GMGM",
+    "ASM120",
+    "CHRBUY",
+    "MARARUN",
+    "FODCHAIN"
   ],
   "history": [
     {
