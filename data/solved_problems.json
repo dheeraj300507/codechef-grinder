@@ -595,7 +595,11 @@
     "CHOCDISTRIB",
     "MAGICHF",
     "TRAVELPS",
-    "QUALPREL"
+    "QUALPREL",
+    "CCOOK",
+    "CS2023_GYM",
+    "CHNGIT",
+    "AIRM"
   ],
   "history": [
     {
