@@ -604,7 +604,12 @@
     "MOOCHEF",
     "CHFICRM",
     "FIFTYPE",
-    "CALINTAKE"
+    "CALINTAKE",
+    "CHKEV",
+    "TWOROLL",
+    "FARAWAY",
+    "PHONEYR",
+    "TREE2"
   ],
   "history": [
     {
