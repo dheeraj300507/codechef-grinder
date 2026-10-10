@@ -622,7 +622,11 @@
     "SEQCLAMP",
     "EVENODDDIV",
     "BSCOST",
-    "PASSEXAMS"
+    "PASSEXAMS",
+    "BOLT",
+    "TWORANGES",
+    "STICKS",
+    "PROBDIFF"
   ],
   "history": [
     {
