@@ -618,7 +618,11 @@
     "DARLIG",
     "NEWPIECE",
     "INDIVISIBLE",
-    "EQUALCOIN"
+    "EQUALCOIN",
+    "SEQCLAMP",
+    "EVENODDDIV",
+    "BSCOST",
+    "PASSEXAMS"
   ],
   "history": [
     {
