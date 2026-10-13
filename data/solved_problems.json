@@ -1,5 +1,5 @@
 {
-  "total_solved": 465,
+  "total_solved": 467,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -465,7 +465,9 @@
     "CHEAPFUEL",
     "DICENUM",
     "CARSELL",
-    "P2BAR"
+    "P2BAR",
+    "CHEFCONTEST",
+    "AABBCCDD"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -688,7 +690,8 @@
     "BADMINTON",
     "CHEFZOT",
     "SBTG",
-    "ATTENDU"
+    "ATTENDU",
+    "LARGODDSTRIN"
   ],
   "history": [
     {
@@ -3942,6 +3945,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-13 20:02:29"
+    },
+    {
+      "code": "CHEFCONTEST",
+      "name": "Chef and Contest",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-13 21:59:33"
+    },
+    {
+      "code": "AABBCCDD",
+      "name": "AabBcCDd",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-13 22:01:03"
     }
   ]
 }
