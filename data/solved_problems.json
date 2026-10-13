@@ -1,5 +1,5 @@
 {
-  "total_solved": 462,
+  "total_solved": 465,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -462,7 +462,10 @@
     "MAXADJSUM",
     "MAYOR_PARTY",
     "REACHWT",
-    "CHEAPFUEL"
+    "CHEAPFUEL",
+    "DICENUM",
+    "CARSELL",
+    "P2BAR"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -3918,6 +3921,27 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-13 17:02:07"
+    },
+    {
+      "code": "DICENUM",
+      "name": "Dice Number",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-13 19:58:45"
+    },
+    {
+      "code": "CARSELL",
+      "name": "Sell All the Cars",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-13 20:00:28"
+    },
+    {
+      "code": "P2BAR",
+      "name": "Signal",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-13 20:02:29"
     }
   ]
 }
