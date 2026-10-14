@@ -1,5 +1,5 @@
 {
-  "total_solved": 473,
+  "total_solved": 474,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -473,7 +473,8 @@
     "COVIDLQ",
     "DIGSMPAR",
     "SHARING",
-    "CNTODDEVEN"
+    "CNTODDEVEN",
+    "KOL15A"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -697,7 +698,10 @@
     "CHEFZOT",
     "SBTG",
     "ATTENDU",
-    "LARGODDSTRIN"
+    "LARGODDSTRIN",
+    "BOP3",
+    "THREEFR",
+    "TEKKEN"
   ],
   "history": [
     {
@@ -4007,6 +4011,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-14 09:53:33"
+    },
+    {
+      "code": "KOL15A",
+      "name": "Processing a string",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-14 14:33:00"
     }
   ]
 }
