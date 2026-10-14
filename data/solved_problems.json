@@ -1,5 +1,5 @@
 {
-  "total_solved": 474,
+  "total_solved": 479,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -474,7 +474,12 @@
     "DIGSMPAR",
     "SHARING",
     "CNTODDEVEN",
-    "KOL15A"
+    "KOL15A",
+    "BLUEBLACK",
+    "THREEBOX",
+    "STKSTR",
+    "P2169",
+    "EOEO"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -4018,6 +4023,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-14 14:33:00"
+    },
+    {
+      "code": "BLUEBLACK",
+      "name": "Blue and Black Pens",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-14 18:12:15"
+    },
+    {
+      "code": "THREEBOX",
+      "name": "Three Boxes",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-14 18:14:04"
+    },
+    {
+      "code": "STKSTR",
+      "name": "Streak Star",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-14 18:15:38"
+    },
+    {
+      "code": "P2169",
+      "name": "Opposite Attract",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-14 18:16:49"
+    },
+    {
+      "code": "EOEO",
+      "name": "The Tom and Jerry Game!",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-14 18:21:26"
     }
   ]
 }
