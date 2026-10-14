@@ -1,5 +1,5 @@
 {
-  "total_solved": 467,
+  "total_solved": 473,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -467,7 +467,13 @@
     "CARSELL",
     "P2BAR",
     "CHEFCONTEST",
-    "AABBCCDD"
+    "AABBCCDD",
+    "STRONGTABLE",
+    "ODDSEVENS",
+    "COVIDLQ",
+    "DIGSMPAR",
+    "SHARING",
+    "CNTODDEVEN"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -3959,6 +3965,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-13 22:01:03"
+    },
+    {
+      "code": "STRONGTABLE",
+      "name": "Table Strength",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-14 09:45:24"
+    },
+    {
+      "code": "ODDSEVENS",
+      "name": "Odds and Evens",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-14 09:46:57"
+    },
+    {
+      "code": "COVIDLQ",
+      "name": "COVID Pandemic and Long Queue",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-14 09:48:23"
+    },
+    {
+      "code": "DIGSMPAR",
+      "name": "Digit Sum Parities",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-14 09:50:02"
+    },
+    {
+      "code": "SHARING",
+      "name": "Sharing Cookies",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-14 09:52:01"
+    },
+    {
+      "code": "CNTODDEVEN",
+      "name": "Count Odd Even Divisors",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-14 09:53:33"
     }
   ]
 }
