@@ -1,5 +1,5 @@
 {
-  "total_solved": 479,
+  "total_solved": 485,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -479,7 +479,13 @@
     "THREEBOX",
     "STKSTR",
     "P2169",
-    "EOEO"
+    "EOEO",
+    "MAKENZERO",
+    "LARGESTK343",
+    "CHFINTRO",
+    "CABRIDE",
+    "CHEFSUM",
+    "FAIRELCT"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -4058,6 +4064,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-14 18:21:26"
+    },
+    {
+      "code": "MAKENZERO",
+      "name": "Make N Zero",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-14 20:59:29"
+    },
+    {
+      "code": "LARGESTK343",
+      "name": "Largest K",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-14 21:00:27"
+    },
+    {
+      "code": "CHFINTRO",
+      "name": "Chef and Interactive Contests",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-14 21:01:59"
+    },
+    {
+      "code": "CABRIDE",
+      "name": "Cab Rides",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-14 21:03:31"
+    },
+    {
+      "code": "CHEFSUM",
+      "name": "Little Chef and Sums",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-14 21:05:03"
+    },
+    {
+      "code": "FAIRELCT",
+      "name": "Fair Elections",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-14 21:06:59"
     }
   ]
 }
