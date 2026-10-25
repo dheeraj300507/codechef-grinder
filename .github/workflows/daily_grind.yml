@@ -16,6 +16,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: grind-and-commit
+  cancel-in-progress: false
+
 jobs:
   grind-and-commit:
     runs-on: ubuntu-latest
@@ -53,6 +57,17 @@ jobs:
         run: |
           python -m src.runner
 
+      - name: Native Activity Heartbeat (Keepalive)
+        run: |
+          mkdir -p data
+          # Update a timestamp if no commits occurred in the last 40 days
+          LAST_COMMIT_DATE=$(git log -1 --format=%ct)
+          CURRENT_DATE=$(date +%s)
+          DIFF_DAYS=$(( (CURRENT_DATE - LAST_COMMIT_DATE) / 86400 ))
+          if [ $DIFF_DAYS -ge 40 ]; then
+            date -u +"%Y-%m-%d %H:%M:%S UTC" > data/.keepalive
+          fi
+
       - name: Commit & Push Solved Solutions
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -61,6 +76,4 @@ jobs:
           commit_user_name: "CodeChef Grinder Bot"
           commit_user_email: "actions@github.com"
           commit_author: "CodeChef Grinder Bot <actions@github.com>"
-
-      - name: Keep Workflow Active
-        uses: gautamkrishnar/keepalive-workflow@v2
+          push_options: '--force-with-lease'
