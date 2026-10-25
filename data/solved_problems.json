@@ -1,5 +1,5 @@
 {
-  "total_solved": 485,
+  "total_solved": 489,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -485,7 +485,11 @@
     "CHFINTRO",
     "CABRIDE",
     "CHEFSUM",
-    "FAIRELCT"
+    "FAIRELCT",
+    "MAXSLAM",
+    "LKDNGOLF",
+    "BUSSEAT",
+    "UNQSHF"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -717,7 +721,8 @@
     "SALARY",
     "WHICHDIV",
     "CODETOWN",
-    "SUNNYDAY"
+    "SUNNYDAY",
+    "TENPACKETS"
   ],
   "history": [
     {
@@ -4111,6 +4116,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-14 21:06:59"
+    },
+    {
+      "code": "MAXSLAM",
+      "name": "Maximum Slams",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-25 05:50:53"
+    },
+    {
+      "code": "LKDNGOLF",
+      "name": "Golf",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-25 05:55:44"
+    },
+    {
+      "code": "BUSSEAT",
+      "name": "Bus Seating",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-25 05:57:16"
+    },
+    {
+      "code": "UNQSHF",
+      "name": "Unequal Shuffle",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-25 05:58:29"
     }
   ]
 }
