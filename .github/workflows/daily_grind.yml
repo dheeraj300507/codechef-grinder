@@ -11,7 +11,6 @@ on:
     - cron: '48 13 * * *'
     # 4. Late Night (~11:21 PM IST)
     - cron: '51 17 * * *'
-
   workflow_dispatch: # Allows manual one-click trigger from GitHub Actions
 
 permissions:
@@ -20,7 +19,6 @@ permissions:
 jobs:
   grind-and-commit:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -63,3 +61,6 @@ jobs:
           commit_user_name: "CodeChef Grinder Bot"
           commit_user_email: "actions@github.com"
           commit_author: "CodeChef Grinder Bot <actions@github.com>"
+
+      - name: Keep Workflow Active
+        uses: gautamkrishnar/keepalive-workflow@v2
