@@ -1,5 +1,5 @@
 {
-  "total_solved": 504,
+  "total_solved": 505,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -504,7 +504,8 @@
     "EQSUM",
     "DRAWCH",
     "GROUPASSGN",
-    "SAMESAME"
+    "SAMESAME",
+    "TYPWRL"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -4266,6 +4267,13 @@
       "status": "Accepted",
       "attempts": 3,
       "time": "2026-10-25 17:18:55"
+    },
+    {
+      "code": "TYPWRL",
+      "name": "Typing World",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-25 20:02:01"
     }
   ]
 }
