@@ -1,5 +1,5 @@
 {
-  "total_solved": 493,
+  "total_solved": 497,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -493,7 +493,11 @@
     "ADASCOOL",
     "MRSWAP",
     "DBDISC",
-    "EID"
+    "EID",
+    "CHANGEONE7",
+    "HCAGMAM1",
+    "HATTRICK",
+    "BRLADDER"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -4177,6 +4181,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-25 07:14:11"
+    },
+    {
+      "code": "CHANGEONE7",
+      "name": "Change One",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-25 09:26:43"
+    },
+    {
+      "code": "HCAGMAM1",
+      "name": "Chef And Salary Pay",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-25 09:28:27"
+    },
+    {
+      "code": "HATTRICK",
+      "name": "Hattrick",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-25 09:29:37"
+    },
+    {
+      "code": "BRLADDER",
+      "name": "Bear and Ladder",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-25 09:31:59"
     }
   ]
 }
