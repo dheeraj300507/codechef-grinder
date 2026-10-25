@@ -1,5 +1,5 @@
 {
-  "total_solved": 497,
+  "total_solved": 503,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -497,7 +497,13 @@
     "CHANGEONE7",
     "HCAGMAM1",
     "HATTRICK",
-    "BRLADDER"
+    "BRLADDER",
+    "MXON",
+    "GOODSUB7",
+    "SEATING7",
+    "EQSUM",
+    "DRAWCH",
+    "GROUPASSGN"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -4209,6 +4215,48 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-10-25 09:31:59"
+    },
+    {
+      "code": "MXON",
+      "name": "Maximum Ones",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-25 13:41:27"
+    },
+    {
+      "code": "GOODSUB7",
+      "name": "Good Subsequence",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-25 13:43:38"
+    },
+    {
+      "code": "SEATING7",
+      "name": "Seating",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-25 13:47:17"
+    },
+    {
+      "code": "EQSUM",
+      "name": "Equal Difference",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-25 13:48:32"
+    },
+    {
+      "code": "DRAWCH",
+      "name": "Drawing Chances",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-25 13:50:38"
+    },
+    {
+      "code": "GROUPASSGN",
+      "name": "Group Assignment",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-25 13:52:44"
     }
   ]
 }
