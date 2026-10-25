@@ -1,5 +1,5 @@
 {
-  "total_solved": 503,
+  "total_solved": 504,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -503,7 +503,8 @@
     "SEATING7",
     "EQSUM",
     "DRAWCH",
-    "GROUPASSGN"
+    "GROUPASSGN",
+    "SAMESAME"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -737,7 +738,8 @@
     "CODETOWN",
     "SUNNYDAY",
     "TENPACKETS",
-    "SPC2025"
+    "SPC2025",
+    "BLNDOR"
   ],
   "history": [
     {
@@ -4257,6 +4259,13 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-25 13:52:44"
+    },
+    {
+      "code": "SAMESAME",
+      "name": "Nearly Equal",
+      "status": "Accepted",
+      "attempts": 3,
+      "time": "2026-10-25 17:18:55"
     }
   ]
 }
