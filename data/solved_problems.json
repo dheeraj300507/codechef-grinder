@@ -1,5 +1,5 @@
 {
-  "total_solved": 489,
+  "total_solved": 493,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -489,7 +489,11 @@
     "MAXSLAM",
     "LKDNGOLF",
     "BUSSEAT",
-    "UNQSHF"
+    "UNQSHF",
+    "ADASCOOL",
+    "MRSWAP",
+    "DBDISC",
+    "EID"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -722,7 +726,8 @@
     "WHICHDIV",
     "CODETOWN",
     "SUNNYDAY",
-    "TENPACKETS"
+    "TENPACKETS",
+    "SPC2025"
   ],
   "history": [
     {
@@ -4144,6 +4149,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-25 05:58:29"
+    },
+    {
+      "code": "ADASCOOL",
+      "name": "Ada School",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-25 07:09:02"
+    },
+    {
+      "code": "MRSWAP",
+      "name": "Mirror Swap",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-25 07:10:59"
+    },
+    {
+      "code": "DBDISC",
+      "name": "Double Discount",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-25 07:12:03"
+    },
+    {
+      "code": "EID",
+      "name": "Chef and Eid",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-25 07:14:11"
     }
   ]
 }
