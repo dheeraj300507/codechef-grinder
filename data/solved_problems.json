@@ -1,5 +1,5 @@
 {
-  "total_solved": 505,
+  "total_solved": 509,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -505,7 +505,11 @@
     "DRAWCH",
     "GROUPASSGN",
     "SAMESAME",
-    "TYPWRL"
+    "TYPWRL",
+    "ARYAGRID",
+    "ANUUND",
+    "CCHEAVEN",
+    "FLOWERBUY"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -4274,6 +4278,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-25 20:02:01"
+    },
+    {
+      "code": "ARYAGRID",
+      "name": "Arya In Grid",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-26 10:33:46"
+    },
+    {
+      "code": "ANUUND",
+      "name": "Ups and Downs",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-26 10:35:11"
+    },
+    {
+      "code": "CCHEAVEN",
+      "name": "Chef in Heaven ",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-26 10:37:40"
+    },
+    {
+      "code": "FLOWERBUY",
+      "name": "Buying Flowers",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-26 10:39:14"
     }
   ]
 }
