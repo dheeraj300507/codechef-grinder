@@ -1,5 +1,5 @@
 {
-  "total_solved": 509,
+  "total_solved": 512,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -509,7 +509,10 @@
     "ARYAGRID",
     "ANUUND",
     "CCHEAVEN",
-    "FLOWERBUY"
+    "FLOWERBUY",
+    "CHOCOCHEF",
+    "CHOCEAT",
+    "WRAPGIFTS"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -744,7 +747,8 @@
     "SUNNYDAY",
     "TENPACKETS",
     "SPC2025",
-    "BLNDOR"
+    "BLNDOR",
+    "EXPSTP"
   ],
   "history": [
     {
@@ -4306,6 +4310,27 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-26 10:39:14"
+    },
+    {
+      "code": "CHOCOCHEF",
+      "name": "Chocolate Distribution",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-26 16:06:36"
+    },
+    {
+      "code": "CHOCEAT",
+      "name": "Chocolate Eating",
+      "status": "Accepted",
+      "attempts": 3,
+      "time": "2026-10-26 16:11:35"
+    },
+    {
+      "code": "WRAPGIFTS",
+      "name": "Christmas Gifts",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-26 16:13:24"
     }
   ]
 }
