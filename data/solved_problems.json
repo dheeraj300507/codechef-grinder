@@ -1,5 +1,5 @@
 {
-  "total_solved": 519,
+  "total_solved": 523,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -519,7 +519,11 @@
     "FARFROMO",
     "SMARTER",
     "PERMUTATION",
-    "MAXTRI"
+    "MAXTRI",
+    "FIZZBUZZ23_2",
+    "CFMM",
+    "SC31",
+    "CHESS_PAIR"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -4392,6 +4396,34 @@
       "status": "Accepted",
       "attempts": 3,
       "time": "2026-10-27 15:26:53"
+    },
+    {
+      "code": "FIZZBUZZ23_2",
+      "name": "Survival Time",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-27 19:01:22"
+    },
+    {
+      "code": "CFMM",
+      "name": "Making a Meal",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-27 19:03:46"
+    },
+    {
+      "code": "SC31",
+      "name": "Weapon Value",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-27 19:05:33"
+    },
+    {
+      "code": "CHESS_PAIR",
+      "name": "Chess Pairing",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-27 19:07:01"
     }
   ]
 }
