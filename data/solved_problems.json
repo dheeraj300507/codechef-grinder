@@ -1,5 +1,5 @@
 {
-  "total_solved": 513,
+  "total_solved": 518,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -513,7 +513,12 @@
     "CHOCOCHEF",
     "CHOCEAT",
     "WRAPGIFTS",
-    "ADDPOS"
+    "ADDPOS",
+    "SNAPE",
+    "DONUTSELL",
+    "FARFROMO",
+    "SMARTER",
+    "PERMUTATION"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -4341,6 +4346,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-26 22:00:54"
+    },
+    {
+      "code": "SNAPE",
+      "name": "Snape and Ladder",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-27 10:04:30"
+    },
+    {
+      "code": "DONUTSELL",
+      "name": "Selling Donuts",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-27 10:05:49"
+    },
+    {
+      "code": "FARFROMO",
+      "name": "Far from origin",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-27 10:07:50"
+    },
+    {
+      "code": "SMARTER",
+      "name": "Work Smarter, Not Harder",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-27 10:09:45"
+    },
+    {
+      "code": "PERMUTATION",
+      "name": "Convert to permutation",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-27 10:12:33"
     }
   ]
 }
