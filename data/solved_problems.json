@@ -772,7 +772,10 @@
     "GEMBUND",
     "VOTERS",
     "TRUTHLIE",
-    "CHESSWIN"
+    "CHESSWIN",
+    "FOOTBALLTIES",
+    "EASYPERM",
+    "GYMDAY"
   ],
   "history": [
     {
