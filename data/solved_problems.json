@@ -1,5 +1,5 @@
 {
-  "total_solved": 527,
+  "total_solved": 531,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -527,7 +527,11 @@
     "PIZZAPARTY",
     "ANADSW",
     "TWODIFFPALIN",
-    "GCEA"
+    "GCEA",
+    "MAKESUB",
+    "BALREV",
+    "CHANGE_PLZ",
+    "ELEVSTRS"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -4456,6 +4460,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-27 21:35:47"
+    },
+    {
+      "code": "MAKESUB",
+      "name": "Make Subarray",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-28 10:51:18"
+    },
+    {
+      "code": "BALREV",
+      "name": "Balanced Reversals",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-28 10:53:00"
+    },
+    {
+      "code": "CHANGE_PLZ",
+      "name": "Change Please",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-28 10:54:48"
+    },
+    {
+      "code": "ELEVSTRS",
+      "name": "From heaven to earth",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-28 10:56:55"
     }
   ]
 }
