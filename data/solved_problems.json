@@ -1,5 +1,5 @@
 {
-  "total_solved": 535,
+  "total_solved": 537,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -535,7 +535,9 @@
     "COUPON2",
     "MAXCAP",
     "MAXSCORE7",
-    "VALIDMIN"
+    "VALIDMIN",
+    "AVGOF3",
+    "REPEAT"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -779,7 +781,9 @@
     "CHESSWIN",
     "FOOTBALLTIES",
     "EASYPERM",
-    "GYMDAY"
+    "GYMDAY",
+    "BISHOPMV",
+    "EVENHATE"
   ],
   "history": [
     {
@@ -4523,6 +4527,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-28 19:15:49"
+    },
+    {
+      "code": "AVGOF3",
+      "name": "Average of Three",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-28 21:55:55"
+    },
+    {
+      "code": "REPEAT",
+      "name": "Odd Repeat",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-28 22:01:09"
     }
   ]
 }
