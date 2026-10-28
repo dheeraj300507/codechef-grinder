@@ -1,5 +1,5 @@
 {
-  "total_solved": 531,
+  "total_solved": 535,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -531,7 +531,11 @@
     "MAKESUB",
     "BALREV",
     "CHANGE_PLZ",
-    "ELEVSTRS"
+    "ELEVSTRS",
+    "COUPON2",
+    "MAXCAP",
+    "MAXSCORE7",
+    "VALIDMIN"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -4491,6 +4495,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-28 10:56:55"
+    },
+    {
+      "code": "COUPON2",
+      "name": "Chef and Coupon",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-28 19:10:23"
+    },
+    {
+      "code": "MAXCAP",
+      "name": "Maximum Capacity",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-28 19:12:17"
+    },
+    {
+      "code": "MAXSCORE7",
+      "name": "Maximum Score ",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-28 19:14:12"
+    },
+    {
+      "code": "VALIDMIN",
+      "name": "Valid Minimum",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-28 19:15:49"
     }
   ]
 }
