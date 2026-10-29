@@ -1,5 +1,5 @@
 {
-  "total_solved": 551,
+  "total_solved": 555,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -551,7 +551,11 @@
     "FRGAME",
     "DSTAPLS",
     "RRCOPY",
-    "RESELL"
+    "RESELL",
+    "STFOOD",
+    "COOLSUB",
+    "MUL123",
+    "BIGARRAY"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -4653,6 +4657,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-29 19:24:05"
+    },
+    {
+      "code": "STFOOD",
+      "name": "Chef and Street Food",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-29 22:03:59"
+    },
+    {
+      "code": "COOLSUB",
+      "name": "Cool Subsequences",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-29 22:06:09"
+    },
+    {
+      "code": "MUL123",
+      "name": "Make Multiple",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-29 22:07:42"
+    },
+    {
+      "code": "BIGARRAY",
+      "name": "Obtain the Sum",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-29 22:09:30"
     }
   ]
 }
