@@ -1,5 +1,5 @@
 {
-  "total_solved": 537,
+  "total_solved": 543,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -537,7 +537,13 @@
     "MAXSCORE7",
     "VALIDMIN",
     "AVGOF3",
-    "REPEAT"
+    "REPEAT",
+    "EQCARDGAME",
+    "YOGACLASS",
+    "NONADJFLIP",
+    "CVDRUN",
+    "CHEFSLP",
+    "ORDDIST"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -4541,6 +4547,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-28 22:01:09"
+    },
+    {
+      "code": "EQCARDGAME",
+      "name": "Equal Card Game",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-29 11:08:14"
+    },
+    {
+      "code": "YOGACLASS",
+      "name": "Yoga Class",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-29 11:09:57"
+    },
+    {
+      "code": "NONADJFLIP",
+      "name": "Non Adjacent Flips",
+      "status": "Accepted",
+      "attempts": 3,
+      "time": "2026-10-29 11:13:40"
+    },
+    {
+      "code": "CVDRUN",
+      "name": "Covid Run",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-29 11:15:04"
+    },
+    {
+      "code": "CHEFSLP",
+      "name": "Chef and Pairing Slippers",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-29 11:16:23"
+    },
+    {
+      "code": "ORDDIST",
+      "name": "Ordered Distances",
+      "status": "Accepted",
+      "attempts": 3,
+      "time": "2026-10-29 11:20:11"
     }
   ]
 }
