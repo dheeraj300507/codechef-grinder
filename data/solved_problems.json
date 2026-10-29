@@ -1,5 +1,5 @@
 {
-  "total_solved": 546,
+  "total_solved": 551,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -546,7 +546,12 @@
     "ORDDIST",
     "DECODEIT",
     "SWMA",
-    "ADAKING"
+    "ADAKING",
+    "MAKEPERM",
+    "FRGAME",
+    "DSTAPLS",
+    "RRCOPY",
+    "RESELL"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -4613,6 +4618,41 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-10-29 16:10:16"
+    },
+    {
+      "code": "MAKEPERM",
+      "name": "Make Permutation",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-29 19:17:55"
+    },
+    {
+      "code": "FRGAME",
+      "name": "Game between friends",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-29 19:18:47"
+    },
+    {
+      "code": "DSTAPLS",
+      "name": "Distribute Apples",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-29 19:20:44"
+    },
+    {
+      "code": "RRCOPY",
+      "name": "Copy-Paste",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-29 19:22:25"
+    },
+    {
+      "code": "RESELL",
+      "name": "Reselling Items",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-29 19:24:05"
     }
   ]
 }
