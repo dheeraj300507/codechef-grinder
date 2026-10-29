@@ -1,5 +1,5 @@
 {
-  "total_solved": 543,
+  "total_solved": 546,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -543,7 +543,10 @@
     "NONADJFLIP",
     "CVDRUN",
     "CHEFSLP",
-    "ORDDIST"
+    "ORDDIST",
+    "DECODEIT",
+    "SWMA",
+    "ADAKING"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -4589,6 +4592,27 @@
       "status": "Accepted",
       "attempts": 3,
       "time": "2026-10-29 11:20:11"
+    },
+    {
+      "code": "DECODEIT",
+      "name": "Encoded String",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-29 16:03:04"
+    },
+    {
+      "code": "SWMA",
+      "name": "Swapping Marks Digits",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-29 16:08:18"
+    },
+    {
+      "code": "ADAKING",
+      "name": "Ada King",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-29 16:10:16"
     }
   ]
 }
