@@ -1,5 +1,5 @@
 {
-  "total_solved": 565,
+  "total_solved": 570,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -565,7 +565,12 @@
     "FAIL",
     "XMASTREE",
     "SCORING",
-    "BIT2A"
+    "BIT2A",
+    "LADDU",
+    "BUYING7",
+    "ODDEVEN7",
+    "CLIPLX",
+    "INTMTCH"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -4766,6 +4771,41 @@
       "status": "Accepted",
       "attempts": 3,
       "time": "2026-10-30 16:01:07"
+    },
+    {
+      "code": "LADDU",
+      "name": "Laddu",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-30 18:54:30"
+    },
+    {
+      "code": "BUYING7",
+      "name": "Expensive Buying",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-30 18:56:30"
+    },
+    {
+      "code": "ODDEVEN7",
+      "name": "Odd Even",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-30 18:58:11"
+    },
+    {
+      "code": "CLIPLX",
+      "name": "IPL and RCB",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-30 19:00:39"
+    },
+    {
+      "code": "INTMTCH",
+      "name": "Interesting Match",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-30 19:03:04"
     }
   ]
 }
