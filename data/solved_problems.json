@@ -1,5 +1,5 @@
 {
-  "total_solved": 555,
+  "total_solved": 559,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -555,7 +555,11 @@
     "STFOOD",
     "COOLSUB",
     "MUL123",
-    "BIGARRAY"
+    "BIGARRAY",
+    "PLACE0110",
+    "COMM3",
+    "EVENM",
+    "COOLER7"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -801,7 +805,8 @@
     "EASYPERM",
     "GYMDAY",
     "BISHOPMV",
-    "EVENHATE"
+    "EVENHATE",
+    "PERMOR"
   ],
   "history": [
     {
@@ -4685,6 +4690,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-29 22:09:30"
+    },
+    {
+      "code": "PLACE0110",
+      "name": "Placing 01 And 10",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-30 11:03:41"
+    },
+    {
+      "code": "COMM3",
+      "name": "Three Way Communications",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-30 11:07:51"
+    },
+    {
+      "code": "EVENM",
+      "name": "Even Matrix",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-30 11:08:45"
+    },
+    {
+      "code": "COOLER7",
+      "name": "Cooler",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-30 11:10:02"
     }
   ]
 }
