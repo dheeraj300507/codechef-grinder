@@ -1,5 +1,5 @@
 {
-  "total_solved": 559,
+  "total_solved": 565,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -559,7 +559,13 @@
     "PLACE0110",
     "COMM3",
     "EVENM",
-    "COOLER7"
+    "COOLER7",
+    "WATERMOVE2",
+    "JOINSTATE",
+    "FAIL",
+    "XMASTREE",
+    "SCORING",
+    "BIT2A"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -4718,6 +4724,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-30 11:10:02"
+    },
+    {
+      "code": "WATERMOVE2",
+      "name": "Water Moving (Max)",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-30 15:50:58"
+    },
+    {
+      "code": "JOINSTATE",
+      "name": "Join States",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-30 15:52:56"
+    },
+    {
+      "code": "FAIL",
+      "name": "Failing Grades",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-30 15:54:16"
+    },
+    {
+      "code": "XMASTREE",
+      "name": "Christmas Trees",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-30 15:56:28"
+    },
+    {
+      "code": "SCORING",
+      "name": "Scoring",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-30 15:58:03"
+    },
+    {
+      "code": "BIT2A",
+      "name": "A - Books",
+      "status": "Accepted",
+      "attempts": 3,
+      "time": "2026-10-30 16:01:07"
     }
   ]
 }
