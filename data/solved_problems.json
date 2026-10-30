@@ -1,5 +1,5 @@
 {
-  "total_solved": 570,
+  "total_solved": 573,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -570,7 +570,10 @@
     "BUYING7",
     "ODDEVEN7",
     "CLIPLX",
-    "INTMTCH"
+    "INTMTCH",
+    "MULT3",
+    "VACCINE1",
+    "FARMLEGS"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -817,7 +820,8 @@
     "GYMDAY",
     "BISHOPMV",
     "EVENHATE",
-    "PERMOR"
+    "PERMOR",
+    "P2_175"
   ],
   "history": [
     {
@@ -4806,6 +4810,27 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-10-30 19:03:04"
+    },
+    {
+      "code": "MULT3",
+      "name": "Multiple of 3",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-30 21:46:38"
+    },
+    {
+      "code": "VACCINE1",
+      "name": "Vaccine Production",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-30 21:48:26"
+    },
+    {
+      "code": "FARMLEGS",
+      "name": "Legs on a Farm",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-30 21:54:22"
     }
   ]
 }
