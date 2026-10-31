@@ -1,5 +1,5 @@
 {
-  "total_solved": 577,
+  "total_solved": 583,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -577,7 +577,13 @@
     "MAX_BIN",
     "LONGDRIVE",
     "LOSTWKND",
-    "MOVHYPE"
+    "MOVHYPE",
+    "CHSERVE",
+    "FINALSALE",
+    "STOCKMARKET",
+    "RECNDSTR",
+    "XOR_PAL",
+    "TEMPLELA"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -4863,6 +4869,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-31 10:45:52"
+    },
+    {
+      "code": "CHSERVE",
+      "name": "Chef and Serves",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-31 13:40:20"
+    },
+    {
+      "code": "FINALSALE",
+      "name": "Sale",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-31 13:43:24"
+    },
+    {
+      "code": "STOCKMARKET",
+      "name": "Chef and Stocks",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-31 13:45:15"
+    },
+    {
+      "code": "RECNDSTR",
+      "name": "Chef and String",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-31 13:47:13"
+    },
+    {
+      "code": "XOR_PAL",
+      "name": "Xor Palindrome",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-31 13:48:17"
+    },
+    {
+      "code": "TEMPLELA",
+      "name": "Temple Land",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-31 13:49:21"
     }
   ]
 }
