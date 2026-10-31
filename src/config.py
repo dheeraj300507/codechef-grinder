@@ -8,10 +8,15 @@ class BotConfig(BaseModel):
     gemini_api_key: str = Field(default_factory=lambda: os.getenv("GEMINI_API_KEY", ""))
     gemini_model: str = Field(default_factory=lambda: os.getenv("GEMINI_MODEL", "gemini-2.5-flash"))
     codechef_session: str = Field(default_factory=lambda: os.getenv("CODECHEF_SESSION", ""))
+    # CodeChef handle that owns CODECHEF_SESSION. The solved database is bound to
+    # this account so a forked / copied database from another user is never reused.
+    codechef_username: str = Field(default_factory=lambda: os.getenv("CODECHEF_USERNAME", "").strip())
 
     # Language Settings
     language: str = Field(default_factory=lambda: os.getenv("LANGUAGE", "cpp"))  # "cpp" or "python3"
     max_retries: int = Field(default_factory=lambda: int(os.getenv("MAX_RETRIES", "3")))
+    # How long to wait for a verdict before parking the submission as "pending"
+    verdict_timeout_seconds: int = Field(default_factory=lambda: int(os.getenv("VERDICT_TIMEOUT_SECONDS", "120")))
 
     # Human-Like Randomization & Pacing
     randomize_batch: bool = Field(default_factory=lambda: os.getenv("RANDOMIZE_BATCH", "true").lower() in ("true", "1", "yes"))

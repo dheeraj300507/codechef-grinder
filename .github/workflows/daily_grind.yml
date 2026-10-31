@@ -44,6 +44,11 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           CODECHEF_SESSION: ${{ secrets.CODECHEF_SESSION }}
+          # CodeChef handle that owns CODECHEF_SESSION. The solved database is bound to it,
+          # so a database copied from another account (e.g. via a fork) is archived, not reused.
+          # Override with a repository variable named CODECHEF_USERNAME if you fork this repo.
+          CODECHEF_USERNAME: ${{ vars.CODECHEF_USERNAME || 'reyhaan_s' }}
+          VERDICT_TIMEOUT_SECONDS: "120"
           RANDOMIZE_BATCH: "true"
           MIN_PROBLEMS_PER_RUN: "4"
           MAX_PROBLEMS_PER_RUN: "6"

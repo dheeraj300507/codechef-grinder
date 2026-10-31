@@ -25,6 +25,9 @@ class CodeChefSolver:
             if m not in models:
                 models.append(m)
         self.candidate_models = models
+        # Models that returned 404 / NOT_FOUND (e.g. "no longer available to new users")
+        # are skipped for the rest of the run instead of being retried on every call.
+        self.unavailable_models: set = set()
 
         if not self.api_key:
             self.client = None
@@ -41,6 +44,8 @@ class CodeChefSolver:
         last_err = None
 
         for model in self.candidate_models:
+            if model in self.unavailable_models:
+                continue
             for try_idx in range(2):
                 try:
                     logger.info(f"Generating solution via model '{model}' (try {try_idx + 1}/2)...")
@@ -55,6 +60,10 @@ class CodeChefSolver:
                     last_err = e
                     err_str = str(e)
                     logger.warning(f"Model '{model}' try {try_idx + 1} failed: {err_str[:120]}")
+                    if "404" in err_str or "NOT_FOUND" in err_str:
+                        logger.info(f"Model '{model}' is not available for this API key; skipping it for this run.")
+                        self.unavailable_models.add(model)
+                        break
                     if "503" in err_str or "429" in err_str or "UNAVAILABLE" in err_str:
                         time.sleep(3 * (try_idx + 1))
                     else:

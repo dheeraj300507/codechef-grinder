@@ -11,6 +11,25 @@ from src.config import config
 logger = logging.getLogger("CodeChefClient")
 
 
+class CodeChefAuthError(RuntimeError):
+    """The CodeChef session cookie is missing, expired, or rejected.
+
+    This is an infrastructure problem, not a property of the problem being
+    solved, so callers must abort the run instead of blacklisting problems.
+    """
+
+
+class VerdictTimeout(TimeoutError):
+    """Judging did not finish in time. The submission may still be accepted."""
+
+    def __init__(self, solution_id: str, waited: int):
+        super().__init__(f"Submission {solution_id} timed out after {waited}s")
+        self.solution_id = solution_id
+
+
+_AUTH_HINTS = ("login", "log in", "logged in", "sign in", "unauthori", "session expired")
+
+
 class CodeChefClient:
     BASE_URL = "https://www.codechef.com"
     API_LIST_PROBLEMS = f"{BASE_URL}/api/list/problems"
@@ -155,34 +174,80 @@ class CodeChefClient:
         }
 
         response = self.http.post(self.API_SUBMIT, data=payload, headers=headers, timeout=20)
+        if response.status_code in (401, 403):
+            raise CodeChefAuthError(
+                f"CodeChef rejected the session [HTTP {response.status_code}]: {response.text[:200]}"
+            )
         if response.status_code != 200:
-            raise RuntimeError(f"Submission failed [HTTP {response.status_code}]: {response.text}")
+            raise RuntimeError(f"Submission failed [HTTP {response.status_code}]: {response.text[:300]}")
 
-        res_data = response.json()
+        try:
+            res_data = response.json()
+        except ValueError:
+            raise RuntimeError(f"Non-JSON submit response: {response.text[:300]}")
+
         solution_id = str(res_data.get("upid") or res_data.get("solution_id") or "")
         if not solution_id:
+            if any(h in json.dumps(res_data).lower() for h in _AUTH_HINTS):
+                raise CodeChefAuthError(f"CodeChef session appears to be logged out: {res_data}")
             raise RuntimeError(f"Unexpected submit response: {res_data}")
 
         return solution_id
 
-    def poll_verdict(self, solution_id: str, max_wait_seconds: int = 45) -> Dict[str, Any]:
-        """Poll CodeChef IDE submit status until judging completes."""
+    def check_verdict_once(self, solution_id: str) -> Optional[Dict[str, Any]]:
+        """Fetch the verdict for a submission once. Returns None while still judging."""
         url = f"{self.API_SUBMIT}?solution_id={solution_id}"
-        start_time = time.time()
-
-        while time.time() - start_time < max_wait_seconds:
+        try:
             response = self.http.get(url, timeout=15)
-            if response.status_code == 200:
-                data = response.json()
-                # Status: wait, running, or done
-                result_code = data.get("result_code")
-                # When evaluation finishes, result_code is not 'wait' or empty
-                if result_code and result_code not in ("wait", "running"):
-                    return self.parse_verdict(data)
+        except requests.RequestException as e:
+            logger.warning(f"Verdict request for {solution_id} failed: {e}")
+            return None
+        if response.status_code in (401, 403):
+            raise CodeChefAuthError(f"CodeChef rejected the session while polling [HTTP {response.status_code}]")
+        if response.status_code != 200:
+            return None
+        try:
+            data = response.json()
+        except ValueError:
+            return None
+        result_code = str(data.get("result_code") or "").lower()
+        # When evaluation finishes, result_code is not 'wait' / 'running' / empty
+        if result_code and result_code not in ("wait", "running", "waiting", "compiling", "queued"):
+            return self.parse_verdict(data)
+        return None
 
+    def poll_verdict(self, solution_id: str, max_wait_seconds: Optional[int] = None) -> Dict[str, Any]:
+        """Poll CodeChef IDE submit status until judging completes.
+
+        Raises VerdictTimeout if judging does not finish in time. A timeout is
+        NOT a rejection: the submission may still be accepted later.
+        """
+        wait = max_wait_seconds if max_wait_seconds is not None else config.verdict_timeout_seconds
+        start_time = time.time()
+        while True:
+            verdict = self.check_verdict_once(solution_id)
+            if verdict is not None:
+                return verdict
+            if time.time() - start_time >= wait:
+                break
             time.sleep(2.5)
+        raise VerdictTimeout(solution_id, wait)
 
-        raise TimeoutError(f"Submission {solution_id} timed out after {max_wait_seconds}s")
+    def fetch_profile_solved_count(self, username: str) -> Optional[int]:
+        """Best-effort read of 'Total Problems Solved' from a public profile page.
+
+        Used only for a warning-level consistency check; returns None if the
+        page layout is not recognised.
+        """
+        try:
+            response = self.http.get(f"{self.BASE_URL}/users/{username}", timeout=15)
+            if response.status_code != 200:
+                return None
+            match = re.search(r"Total\s+Problems\s+Solved\s*:?\s*(?:<[^>]*>\s*)*(\d+)", response.text, re.I)
+            return int(match.group(1)) if match else None
+        except Exception as e:
+            logger.info(f"Could not read profile solved count for {username}: {e}")
+            return None
 
     def parse_verdict(self, raw_result: Dict[str, Any]) -> Dict[str, Any]:
         """Normalize CodeChef judging result into a structured feedback object."""

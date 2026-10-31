@@ -1,15 +1,14 @@
 import datetime
-import json
 import logging
-import os
 import random
 import sys
 import time
 from pathlib import Path
 
 from src.config import config
-from src.codechef_client import CodeChefClient
+from src.codechef_client import CodeChefAuthError, CodeChefClient, VerdictTimeout
 from src.solver import CodeChefSolver
+from src import database as dbm
 
 logging.basicConfig(
     level=logging.INFO,
@@ -17,31 +16,6 @@ logging.basicConfig(
     handlers=[logging.StreamHandler(sys.stdout)],
 )
 logger = logging.getLogger("CodeChefAutoGrinder")
-
-
-def load_solved_database(data_path: Path) -> dict:
-    """Load or initialize database tracking solved and failed problem codes."""
-    if data_path.exists():
-        try:
-            with open(data_path, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except Exception as e:
-            logger.warning(f"Failed to read {data_path}, creating fresh state: {e}")
-
-    return {"total_solved": 0, "solved_codes": [], "failed_codes": [], "history": []}
-
-
-def save_solved_database(data_path: Path, data: dict) -> None:
-    """Persist solved problems tracking to JSON."""
-    data_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(data_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
-
-
-def count_problems_solved_today(history: list) -> int:
-    """Count how many problems were already solved on the current calendar date."""
-    today_str = datetime.date.today().isoformat()
-    return sum(1 for item in history if str(item.get("time", "")).startswith(today_str))
 
 
 def save_solution_files(
@@ -67,11 +41,39 @@ def save_solution_files(
     logger.info(f"Saved problem solution files at: {target_dir}")
 
 
+def fallback_doc(details: dict, attempts: int) -> str:
+    code = details.get("problem_code", "")
+    name = details.get("problem_name", code)
+    return (
+        f"# [{name} ({code})](https://www.codechef.com/problems/{code})\n\n"
+        f"- **Difficulty Rating**: {details.get('difficulty_rating', 'Unrated')}\n"
+        f"- **Solved in**: {attempts} attempt(s)\n\n"
+        "_Explanation could not be generated automatically for this problem._\n"
+    )
+
+
+def reconcile_pending(client: CodeChefClient, db: dict) -> None:
+    """Re-check submissions whose verdict was unknown when a previous run ended."""
+    for item in list(db.get("pending", [])):
+        code, sid = item.get("code"), item.get("solution_id")
+        verdict = client.check_verdict_once(sid)
+        if verdict is None:
+            logger.info(f"Pending submission {sid} for {code} is still being judged; will check again next run.")
+            continue
+        if verdict["passed"]:
+            logger.info(f"Pending submission {sid} for {code} was ACCEPTED. Recording it.")
+            dbm.record_accepted(db, code, item.get("name", code), sid, attempts=None)
+        else:
+            logger.info(f"Pending submission {sid} for {code} ended as {verdict['result_code']}; problem is eligible again.")
+            dbm.clear_pending(db, code)
+
+
 def run():
     logger.info("=== Starting CodeChef Practice Archive Auto-Grinder ===")
 
     client = CodeChefClient()
     solver = CodeChefSolver()
+    account = config.codechef_username
 
     # Pre-flight Credentials Verification
     if not solver.api_key:
@@ -86,15 +88,44 @@ def run():
         )
         sys.exit(1)
 
-    # 1. Load Solved Database
-    db = load_solved_database(config.data_file)
-    solved_set = set(db.get("solved_codes", []))
-    failed_set = set(db.get("failed_codes", []))
-    history = db.get("history", [])
+    if not account:
+        logger.error(
+            "CRITICAL: CODECHEF_USERNAME is not set. It must be the CodeChef handle that owns "
+            "CODECHEF_SESSION, so the solved database is never mixed with another account's history."
+        )
+        sys.exit(1)
 
-    today_solved = count_problems_solved_today(history)
-    logger.info(f"Database loaded: {len(solved_set)} total solved, {len(failed_set)} skipped/failed.")
-    logger.info(f"Problems solved today so far: {today_solved} (Daily Target Range: {config.daily_target_min}-{config.daily_target_max})")
+    # 1. Load the database for THIS account (foreign databases are archived, not reused)
+    db = dbm.load_database(config.data_file, account)
+    dbm.save_database(config.data_file, db)
+
+    if not config.dry_run:
+        try:
+            reconcile_pending(client, db)
+        except CodeChefAuthError as e:
+            logger.error(f"CRITICAL: CodeChef session is not valid: {e}")
+            sys.exit(1)
+        dbm.save_database(config.data_file, db)
+
+    solved_set = set(db["solved_codes"])
+    failed_set = set(db["failed_codes"])
+    pending_set = dbm.pending_codes(db)
+
+    today_solved = dbm.count_solved_on(db["history"], account, dbm.utc_now().date())
+    logger.info(
+        f"Database loaded for '{account}': {len(solved_set)} accepted (with submission ids), "
+        f"{len(failed_set)} failed, {len(pending_set)} awaiting verdict."
+    )
+    logger.info(f"Problems solved today so far (UTC): {today_solved} (Daily Target Range: {config.daily_target_min}-{config.daily_target_max})")
+
+    profile_count = client.fetch_profile_solved_count(account)
+    if profile_count is not None:
+        logger.info(f"CodeChef profile '{account}' reports {profile_count} problems solved.")
+        if profile_count < len(solved_set):
+            logger.warning(
+                f"Local database claims {len(solved_set)} solved but the profile shows {profile_count}. "
+                "Check that CODECHEF_SESSION belongs to this account."
+            )
 
     # Check if daily upper bound is reached
     if today_solved >= config.daily_target_max:
@@ -103,9 +134,7 @@ def run():
 
     # 2. Determine Random Session Target
     if config.randomize_batch:
-        # Pick random number for this run (e.g. 2 to 5 problems)
         target_this_run = random.randint(config.min_problems_per_run, config.max_problems_per_run)
-        # Cap so we don't exceed daily_target_max
         remaining_today = config.daily_target_max - today_solved
         target_this_run = min(target_this_run, remaining_today)
     else:
@@ -115,6 +144,7 @@ def run():
 
     # 3. Discover Unsolved Candidate Problems
     candidate_problems = []
+    seen = set()
     page = 0
     while len(candidate_problems) < target_this_run and page < 50:
         try:
@@ -133,22 +163,24 @@ def run():
 
         for p in problems:
             code = p.get("code")
-            if not code:
+            if not code or code in seen:
                 continue
 
-            # Check difficulty bounds if rated
-            diff = int(p.get("difficulty_rating", -1))
+            try:
+                diff = int(p.get("difficulty_rating", -1))
+            except (TypeError, ValueError):
+                diff = -1
             if diff > 0 and (diff < config.min_difficulty or diff > config.max_difficulty):
                 continue
 
-            # Skip already solved or already marked as broken/failed
-            if code in solved_set or code in failed_set:
+            # Skip already solved, failed, or awaiting a verdict
+            if code in solved_set or code in failed_set or code in pending_set:
                 continue
 
-            if code not in [cp["code"] for cp in candidate_problems]:
-                candidate_problems.append(p)
-                if len(candidate_problems) >= target_this_run:
-                    break
+            seen.add(code)
+            candidate_problems.append(p)
+            if len(candidate_problems) >= target_this_run:
+                break
 
         page += 1
 
@@ -162,6 +194,7 @@ def run():
 
     # 4. Solve & Submit Each Problem
     solved_this_run = 0
+    max_infra_errors = 2
 
     for idx, p_meta in enumerate(candidate_problems, 1):
         code = p_meta.get("code")
@@ -175,24 +208,25 @@ def run():
             continue
 
         clean_content = details.get("cleanContent", "")
-        # Filter out example tutorial / author guide problems
         if "example problem statement" in clean_content.lower() or "mini guide on writing statements" in clean_content.lower():
             logger.warning(f"Skipping dummy/tutorial template problem: {code}")
-            if "failed_codes" not in db:
-                db["failed_codes"] = []
-            db["failed_codes"].append(code)
-            save_solved_database(config.data_file, db)
+            dbm.record_failed(db, code)
+            dbm.save_database(config.data_file, db)
             continue
 
-        attempt = 1
+        # judge_attempts counts only submissions the judge actually rejected.
+        # Infrastructure errors (Gemini outage, network, auth) never blacklist a problem.
+        judge_attempts = 0
+        infra_errors = 0
         previous_code = ""
         diagnostic = ""
-        is_solved = False
+        outcome = "unresolved"   # accepted | rejected | pending | unresolved
 
-        while attempt <= config.max_retries:
+        while judge_attempts < config.max_retries and infra_errors < max_infra_errors:
+            attempt = judge_attempts + 1
             logger.info(f"--- Problem {code} | Attempt {attempt} of {config.max_retries} ---")
             try:
-                if attempt == 1:
+                if not previous_code:
                     logger.info("Generating initial solution using Gemini...")
                     sol_code = solver.generate_initial_solution(details, config.language)
                 else:
@@ -201,78 +235,98 @@ def run():
                         problem_details=details,
                         previous_code=previous_code,
                         diagnostic=diagnostic,
-                        attempt=attempt - 1,
+                        attempt=judge_attempts,
                         language=config.language
                     )
+            except Exception as gen_err:
+                infra_errors += 1
+                logger.error(f"Solution generation failed for {code}: {gen_err}")
+                time.sleep(10)
+                continue
 
-                logger.info(f"Generated solution ({len(sol_code)} chars). Preview:\n{sol_code[:160]}...\n")
+            logger.info(f"Generated solution ({len(sol_code)} chars). Preview:\n{sol_code[:160]}...\n")
 
-                if config.dry_run:
-                    logger.info("[DRY RUN] Skipping live submission.")
-                    doc = solver.generate_explanation_doc(details, sol_code, attempts=attempt, language=config.language)
-                    save_solution_files(config.solutions_dir, code, sol_code, doc, config.language)
-                    is_solved = True
-                    break
+            if config.dry_run:
+                logger.info("[DRY RUN] Skipping live submission; nothing is recorded as solved.")
+                outcome = "dry_run"
+                break
 
-                # Live Submission
+            try:
                 logger.info("Submitting to CodeChef IDE...")
                 solution_id = client.submit_solution(code, sol_code, config.language)
-                logger.info(f"Submitted. Solution ID: {solution_id}. Polling verdict...")
-
-                verdict = client.poll_verdict(solution_id)
-                logger.info(f"Verdict: {verdict.get('result_code')} (Passed: {verdict.get('passed')})")
-
-                if verdict["passed"]:
-                    logger.info(f"[ACCEPTED] Problem {code} solved successfully!")
-                    is_solved = True
-
-                    doc = solver.generate_explanation_doc(details, sol_code, attempts=attempt, language=config.language)
-                    save_solution_files(config.solutions_dir, code, sol_code, doc, config.language)
-
-                    # Update database
-                    db["solved_codes"].append(code)
-                    db["total_solved"] = len(db["solved_codes"])
-                    db["history"].append({
-                        "code": code,
-                        "name": name,
-                        "status": "Accepted",
-                        "attempts": attempt,
-                        "time": time.strftime("%Y-%m-%d %H:%M:%S")
-                    })
-                    save_solved_database(config.data_file, db)
-                    solved_this_run += 1
-                    break
-                else:
-                    logger.warning(f"Verdict failed: {verdict.get('result_code')}")
-                    diagnostic = verdict.get("diagnostic", "Submission failed.")
-                    previous_code = sol_code
-                    if attempt < config.max_retries:
-                        time.sleep(10)
-
-            except Exception as loop_err:
-                logger.error(f"Error during attempt {attempt} for {code}: {loop_err}")
-                diagnostic = f"Execution error: {str(loop_err)}"
-                previous_code = sol_code if 'sol_code' in locals() else ""
+            except CodeChefAuthError as e:
+                logger.error(f"CRITICAL: CodeChef session is not valid, aborting run without blacklisting anything: {e}")
+                dbm.save_database(config.data_file, db)
+                sys.exit(1)
+            except Exception as sub_err:
+                infra_errors += 1
+                logger.error(f"Submission request failed for {code}: {sub_err}")
                 time.sleep(10)
+                continue
 
-            attempt += 1
+            logger.info(f"Submitted. Solution ID: {solution_id}. Polling verdict...")
+            try:
+                verdict = client.poll_verdict(solution_id)
+            except VerdictTimeout as e:
+                # The submission exists and may well be accepted. Do NOT resubmit;
+                # park it and re-check on the next run.
+                logger.warning(f"{e}. Recording {code} as pending; it will be re-checked next run.")
+                dbm.add_pending(db, code, name, solution_id)
+                dbm.save_database(config.data_file, db)
+                outcome = "pending"
+                break
+            except CodeChefAuthError as e:
+                logger.error(f"CRITICAL: CodeChef session became invalid while polling: {e}")
+                dbm.add_pending(db, code, name, solution_id)
+                dbm.save_database(config.data_file, db)
+                sys.exit(1)
 
-        if not is_solved and not config.dry_run:
-            logger.warning(f"Problem {code} failed all {config.max_retries} attempts. Adding to skip list.")
-            if "failed_codes" not in db:
-                db["failed_codes"] = []
-            if code not in db["failed_codes"]:
-                db["failed_codes"].append(code)
-            save_solved_database(config.data_file, db)
+            logger.info(f"Verdict: {verdict.get('result_code')} (Passed: {verdict.get('passed')})")
+
+            if verdict["passed"]:
+                logger.info(f"[ACCEPTED] Problem {code} solved successfully! (submission {solution_id})")
+                # Persist the evidence FIRST, so a later failure cannot cause a resubmission.
+                dbm.record_accepted(db, code, name, solution_id, attempts=attempt)
+                dbm.save_database(config.data_file, db)
+                solved_this_run += 1
+                outcome = "accepted"
+
+                try:
+                    doc = solver.generate_explanation_doc(details, sol_code, attempts=attempt, language=config.language)
+                except Exception as doc_err:
+                    logger.warning(f"Explanation generation failed for {code} ({doc_err}); writing a minimal README.")
+                    doc = fallback_doc(details, attempt)
+                save_solution_files(config.solutions_dir, code, sol_code, doc, config.language)
+                break
+
+            judge_attempts += 1
+            logger.warning(f"Verdict failed: {verdict.get('result_code')}")
+            diagnostic = verdict.get("diagnostic", "Submission failed.")
+            previous_code = sol_code
+            if judge_attempts < config.max_retries:
+                time.sleep(10)
+        else:
+            if judge_attempts >= config.max_retries:
+                outcome = "rejected"
+
+        if outcome == "rejected":
+            logger.warning(f"Problem {code} was rejected by the judge {judge_attempts} times. Adding to skip list.")
+            dbm.record_failed(db, code)
+            dbm.save_database(config.data_file, db)
+        elif outcome == "unresolved":
+            logger.warning(
+                f"Problem {code} could not be attempted due to infrastructure errors; "
+                "it is NOT blacklisted and will be retried in a later run."
+            )
 
         # Human-like randomized delay between different problems
-        if is_solved and idx < len(candidate_problems) and not config.dry_run:
+        if outcome in ("accepted", "pending", "rejected") and idx < len(candidate_problems) and not config.dry_run:
             pacing_delay = random.randint(config.min_delay_seconds, config.max_delay_seconds)
             logger.info(f"Waiting {pacing_delay}s before starting next problem (human randomized pacing)...")
             time.sleep(pacing_delay)
 
     logger.info(f"\n=== Session Finished: Solved {solved_this_run}/{len(candidate_problems)} problems ===")
-    logger.info(f"Total CodeChef problems solved to date: {db.get('total_solved', 0)}")
+    logger.info(f"Total problems accepted on '{account}' recorded by this bot: {db['total_solved']}")
 
 
 if __name__ == "__main__":

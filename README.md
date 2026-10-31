@@ -44,6 +44,13 @@ In your GitHub repository:
 2. Click **New repository secret** and add:
    - `GEMINI_API_KEY`: Your Gemini API key from [Google AI Studio](https://aistudio.google.com/).
    - `CODECHEF_SESSION`: Your CodeChef session cookie from Step 2.
+3. Under the **Variables** tab, add `CODECHEF_USERNAME` = the CodeChef handle that owns that cookie.
+
+> **Forking?** `data/solved_problems.json` is bound to one CodeChef account (its `account` field).
+> When the configured `CODECHEF_USERNAME` doesn't match, the bot archives the old file to
+> `data/archive/` and starts a fresh database, so it never claims another person's solves as yours.
+> Every accepted record stores the CodeChef `solution_id` as evidence. Submissions whose verdict times
+> out are kept under `pending` and re-checked on the next run instead of being resubmitted.
 
 ### Step 4: Enable Workflow Write Permissions
 For GitHub Actions to auto-commit solutions to your repository:
