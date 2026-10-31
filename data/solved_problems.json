@@ -1,5 +1,5 @@
 {
-  "total_solved": 581,
+  "total_solved": 587,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -581,7 +581,13 @@
     "CHSERVE",
     "FINALSALE",
     "STOCKMARKET",
-    "RECNDSTR"
+    "RECNDSTR",
+    "XOR_PAL",
+    "TEMPLELA",
+    "DOUBLE",
+    "AVDSQUARPLZ",
+    "FIXEDPTS",
+    "MONEYDOUBLE"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -4895,6 +4901,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-31 15:22:27"
+    },
+    {
+      "code": "XOR_PAL",
+      "name": "Xor Palindrome",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-31 18:00:07"
+    },
+    {
+      "code": "TEMPLELA",
+      "name": "Temple Land",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-31 18:01:29"
+    },
+    {
+      "code": "DOUBLE",
+      "name": "Double Strings",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-31 18:03:35"
+    },
+    {
+      "code": "AVDSQUARPLZ",
+      "name": "Avoid Squares Please",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-31 18:05:42"
+    },
+    {
+      "code": "FIXEDPTS",
+      "name": "Fixed Points",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-31 18:07:52"
+    },
+    {
+      "code": "MONEYDOUBLE",
+      "name": "Money Double",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-31 18:09:32"
     }
   ]
 }
