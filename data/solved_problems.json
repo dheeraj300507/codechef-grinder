@@ -1,5 +1,5 @@
 {
-  "total_solved": 577,
+  "total_solved": 581,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -577,7 +577,11 @@
     "MAX_BIN",
     "LONGDRIVE",
     "LOSTWKND",
-    "MOVHYPE"
+    "MOVHYPE",
+    "CHSERVE",
+    "FINALSALE",
+    "STOCKMARKET",
+    "RECNDSTR"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -4863,6 +4867,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-31 10:45:52"
+    },
+    {
+      "code": "CHSERVE",
+      "name": "Chef and Serves",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-31 15:16:55"
+    },
+    {
+      "code": "FINALSALE",
+      "name": "Sale",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-31 15:18:19"
+    },
+    {
+      "code": "STOCKMARKET",
+      "name": "Chef and Stocks",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-31 15:21:03"
+    },
+    {
+      "code": "RECNDSTR",
+      "name": "Chef and String",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-31 15:22:27"
     }
   ]
 }
