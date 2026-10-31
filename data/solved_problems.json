@@ -1,5 +1,5 @@
 {
-  "total_solved": 587,
+  "total_solved": 591,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -587,7 +587,11 @@
     "DOUBLE",
     "AVDSQUARPLZ",
     "FIXEDPTS",
-    "MONEYDOUBLE"
+    "MONEYDOUBLE",
+    "BALLOONS",
+    "BAKERY7",
+    "ALTARR",
+    "MINMXOR"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -4943,6 +4947,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-10-31 18:09:32"
+    },
+    {
+      "code": "BALLOONS",
+      "name": "Coloured Balloons",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-31 20:42:25"
+    },
+    {
+      "code": "BAKERY7",
+      "name": "Bakery Problem",
+      "status": "Accepted",
+      "attempts": 3,
+      "time": "2026-10-31 20:46:16"
+    },
+    {
+      "code": "ALTARR",
+      "name": "Alternating Array",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-31 20:47:54"
+    },
+    {
+      "code": "MINMXOR",
+      "name": "Minimum XOR",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-31 20:49:42"
     }
   ]
 }
