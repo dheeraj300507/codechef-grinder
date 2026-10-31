@@ -1,5 +1,5 @@
 {
-  "total_solved": 573,
+  "total_solved": 577,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -573,7 +573,11 @@
     "INTMTCH",
     "MULT3",
     "VACCINE1",
-    "FARMLEGS"
+    "FARMLEGS",
+    "MAX_BIN",
+    "LONGDRIVE",
+    "LOSTWKND",
+    "MOVHYPE"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -4831,6 +4835,34 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-10-30 21:54:22"
+    },
+    {
+      "code": "MAX_BIN",
+      "name": "Max Binary",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-10-31 10:39:06"
+    },
+    {
+      "code": "LONGDRIVE",
+      "name": "Long Drive",
+      "status": "Accepted",
+      "attempts": 3,
+      "time": "2026-10-31 10:41:58"
+    },
+    {
+      "code": "LOSTWKND",
+      "name": "Lost Weekends",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-31 10:43:52"
+    },
+    {
+      "code": "MOVHYPE",
+      "name": "Movie Hype",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-10-31 10:45:52"
     }
   ]
 }
