@@ -1,5 +1,5 @@
 {
-  "total_solved": 597,
+  "total_solved": 602,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -597,7 +597,12 @@
     "MODEFREQ",
     "WOLFDOWN",
     "CHPINTU",
-    "OG"
+    "OG",
+    "RATIO2",
+    "ALEXNUMB",
+    "RNGEODD",
+    "CMIX",
+    "IPCCERT"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -5023,6 +5028,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-01 11:39:20"
+    },
+    {
+      "code": "RATIO2",
+      "name": "Ratio By 2",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-01 15:57:59"
+    },
+    {
+      "code": "ALEXNUMB",
+      "name": "Magic Pairs",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-01 15:59:54"
+    },
+    {
+      "code": "RNGEODD",
+      "name": "Range Odd",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-01 16:02:15"
+    },
+    {
+      "code": "CMIX",
+      "name": "Spell Splice",
+      "status": "Accepted",
+      "attempts": 3,
+      "time": "2026-11-01 16:05:58"
+    },
+    {
+      "code": "IPCCERT",
+      "name": "Chef and IPC Certificates",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-01 16:06:52"
     }
   ]
 }
