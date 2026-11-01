@@ -1,5 +1,5 @@
 {
-  "total_solved": 608,
+  "total_solved": 611,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -608,7 +608,10 @@
     "RATING",
     "CHEFGRD",
     "MINDAYSRET",
-    "SAVWATER"
+    "SAVWATER",
+    "DIVIDEMAKEEQ",
+    "MNMX",
+    "DANCEMOVES"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -5111,6 +5114,27 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-01 18:45:40"
+    },
+    {
+      "code": "DIVIDEMAKEEQ",
+      "name": "Luigi and Uniformity",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-01 21:24:57"
+    },
+    {
+      "code": "MNMX",
+      "name": "Minimum Maximum",
+      "status": "Accepted",
+      "attempts": 3,
+      "time": "2026-11-01 21:27:59"
+    },
+    {
+      "code": "DANCEMOVES",
+      "name": "Dance Moves",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-01 21:29:26"
     }
   ]
 }
