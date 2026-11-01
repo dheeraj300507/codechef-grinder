@@ -1,5 +1,5 @@
 {
-  "total_solved": 602,
+  "total_solved": 608,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -602,7 +602,13 @@
     "ALEXNUMB",
     "RNGEODD",
     "CMIX",
-    "IPCCERT"
+    "IPCCERT",
+    "SECLAR",
+    "PATHPAR",
+    "RATING",
+    "CHEFGRD",
+    "MINDAYSRET",
+    "SAVWATER"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -5063,6 +5069,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-01 16:06:52"
+    },
+    {
+      "code": "SECLAR",
+      "name": "Find Second Largest",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-01 18:37:29"
+    },
+    {
+      "code": "PATHPAR",
+      "name": "Path Parity",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-01 18:38:29"
+    },
+    {
+      "code": "RATING",
+      "name": "The Rating Dilemma",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-01 18:39:32"
+    },
+    {
+      "code": "CHEFGRD",
+      "name": "Akash and Grid",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-01 18:41:36"
+    },
+    {
+      "code": "MINDAYSRET",
+      "name": "Back to Campus",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-01 18:43:29"
+    },
+    {
+      "code": "SAVWATER",
+      "name": "A - Save Water Save Life",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-01 18:45:40"
     }
   ]
 }
