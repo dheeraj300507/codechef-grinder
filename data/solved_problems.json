@@ -1,5 +1,5 @@
 {
-  "total_solved": 615,
+  "total_solved": 617,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -615,7 +615,9 @@
     "MAKEMULTIPLE",
     "MAX123",
     "ONEFROMK",
-    "SWISHGAME"
+    "SWISHGAME",
+    "DIVIDE3",
+    "HOWMANYMAX"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -863,7 +865,8 @@
     "BISHOPMV",
     "EVENHATE",
     "PERMOR",
-    "P2_175"
+    "P2_175",
+    "VALTRI"
   ],
   "history": [
     {
@@ -5167,6 +5170,20 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-11-02 13:00:41"
+    },
+    {
+      "code": "DIVIDE3",
+      "name": "Divide into 3",
+      "status": "Accepted",
+      "attempts": 3,
+      "time": "2026-11-02 19:33:06"
+    },
+    {
+      "code": "HOWMANYMAX",
+      "name": "How Many Maximums",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-02 19:40:40"
     }
   ]
 }
