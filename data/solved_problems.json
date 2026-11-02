@@ -1,5 +1,5 @@
 {
-  "total_solved": 611,
+  "total_solved": 615,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -611,7 +611,11 @@
     "SAVWATER",
     "DIVIDEMAKEEQ",
     "MNMX",
-    "DANCEMOVES"
+    "DANCEMOVES",
+    "MAKEMULTIPLE",
+    "MAX123",
+    "ONEFROMK",
+    "SWISHGAME"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -5135,6 +5139,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-01 21:29:26"
+    },
+    {
+      "code": "MAKEMULTIPLE",
+      "name": "Make Multiple",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-02 12:54:15"
+    },
+    {
+      "code": "MAX123",
+      "name": "Triplet Maximization",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-02 12:56:32"
+    },
+    {
+      "code": "ONEFROMK",
+      "name": "Exclusion-Inclusion",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-02 12:58:42"
+    },
+    {
+      "code": "SWISHGAME",
+      "name": "Swish Game",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-02 13:00:41"
     }
   ]
 }
