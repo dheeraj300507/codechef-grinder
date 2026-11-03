@@ -1,5 +1,5 @@
 {
-  "total_solved": 624,
+  "total_solved": 626,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -624,7 +624,9 @@
     "PENALTYSHOOT",
     "HLEQN",
     "P2P",
-    "TEMPPLANT"
+    "TEMPPLANT",
+    "MINSM",
+    "ODDPREFSUM"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -878,7 +880,8 @@
     "PERFCONT",
     "SCHOOLTRIP",
     "LPC",
-    "MARBCOLL"
+    "MARBCOLL",
+    "COVDSMPL"
   ],
   "history": [
     {
@@ -5245,6 +5248,20 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-11-03 00:15:52"
+    },
+    {
+      "code": "MINSM",
+      "name": "Minimum Sum",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-03 17:06:26"
+    },
+    {
+      "code": "ODDPREFSUM",
+      "name": "All Odd Prefix Sums",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-03 17:07:27"
     }
   ]
 }
