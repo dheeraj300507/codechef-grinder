@@ -1,5 +1,5 @@
 {
-  "total_solved": 630,
+  "total_solved": 634,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -630,7 +630,11 @@
     "DISCOOKIE",
     "EXMLF1",
     "MOVIEWKN",
-    "LOGICIAN"
+    "LOGICIAN",
+    "FFL",
+    "MEANMEDIAN",
+    "MAKEABEQUAL",
+    "STRPALIN"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -5294,6 +5298,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-03 20:23:06"
+    },
+    {
+      "code": "FFL",
+      "name": "Chef in Fantasy League",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-03 22:36:56"
+    },
+    {
+      "code": "MEANMEDIAN",
+      "name": "Mean and Median",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-03 22:38:26"
+    },
+    {
+      "code": "MAKEABEQUAL",
+      "name": "Make A and B equal",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-03 22:39:43"
+    },
+    {
+      "code": "STRPALIN",
+      "name": "Palindromic substrings",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-03 22:41:45"
     }
   ]
 }
