@@ -875,7 +875,10 @@
     "P2_175",
     "VALTRI",
     "USELEC",
-    "PERFCONT"
+    "PERFCONT",
+    "SCHOOLTRIP",
+    "LPC",
+    "MARBCOLL"
   ],
   "history": [
     {
