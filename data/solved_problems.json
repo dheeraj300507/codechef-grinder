@@ -1,5 +1,5 @@
 {
-  "total_solved": 619,
+  "total_solved": 624,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -619,7 +619,12 @@
     "DIVIDE3",
     "HOWMANYMAX",
     "KO_MON",
-    "MORECOOK"
+    "MORECOOK",
+    "NAICHEF",
+    "PENALTYSHOOT",
+    "HLEQN",
+    "P2P",
+    "TEMPPLANT"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -869,7 +874,8 @@
     "PERMOR",
     "P2_175",
     "VALTRI",
-    "USELEC"
+    "USELEC",
+    "PERFCONT"
   ],
   "history": [
     {
@@ -5201,6 +5207,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-02 22:31:50"
+    },
+    {
+      "code": "NAICHEF",
+      "name": "Naive Chef",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-03 00:07:05"
+    },
+    {
+      "code": "PENALTYSHOOT",
+      "name": "Penalty Shoot-out",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-03 00:10:05"
+    },
+    {
+      "code": "HLEQN",
+      "name": "Hello Equation",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-03 00:11:16"
+    },
+    {
+      "code": "P2P",
+      "name": "Make Odd",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-03 00:13:07"
+    },
+    {
+      "code": "TEMPPLANT",
+      "name": "Plant",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-03 00:15:52"
     }
   ]
 }
