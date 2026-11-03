@@ -1,5 +1,5 @@
 {
-  "total_solved": 626,
+  "total_solved": 630,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -626,7 +626,11 @@
     "P2P",
     "TEMPPLANT",
     "MINSM",
-    "ODDPREFSUM"
+    "ODDPREFSUM",
+    "DISCOOKIE",
+    "EXMLF1",
+    "MOVIEWKN",
+    "LOGICIAN"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -5262,6 +5266,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-03 17:07:27"
+    },
+    {
+      "code": "DISCOOKIE",
+      "name": "Distribute Cookies",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-03 20:18:33"
+    },
+    {
+      "code": "EXMLF1",
+      "name": "EXML Race",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-03 20:20:29"
+    },
+    {
+      "code": "MOVIEWKN",
+      "name": "Movie Weekend",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-03 20:22:08"
+    },
+    {
+      "code": "LOGICIAN",
+      "name": "3 Logicians Walk into a Bar",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-03 20:23:06"
     }
   ]
 }
