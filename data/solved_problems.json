@@ -1,5 +1,5 @@
 {
-  "total_solved": 634,
+  "total_solved": 639,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -634,7 +634,12 @@
     "FFL",
     "MEANMEDIAN",
     "MAKEABEQUAL",
-    "STRPALIN"
+    "STRPALIN",
+    "CK87MEDI",
+    "EQPAIR",
+    "BETWEEN",
+    "NOPAL",
+    "ARRAYSTATE"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -889,7 +894,8 @@
     "SCHOOLTRIP",
     "LPC",
     "MARBCOLL",
-    "COVDSMPL"
+    "COVDSMPL",
+    "ADVITIYA4"
   ],
   "history": [
     {
@@ -5326,6 +5332,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-03 22:41:45"
+    },
+    {
+      "code": "CK87MEDI",
+      "name": "Chef and Employment Test",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-04 12:37:31"
+    },
+    {
+      "code": "EQPAIR",
+      "name": "Good Pairs",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-04 12:39:26"
+    },
+    {
+      "code": "BETWEEN",
+      "name": "Exun Leaderboard",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-04 12:41:22"
+    },
+    {
+      "code": "NOPAL",
+      "name": "Palindromes Not Allowed",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-04 12:42:34"
+    },
+    {
+      "code": "ARRAYSTATE",
+      "name": "Find Multiset State",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-04 12:44:06"
     }
   ]
 }
