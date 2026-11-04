@@ -1,5 +1,5 @@
 {
-  "total_solved": 644,
+  "total_solved": 649,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -644,7 +644,12 @@
     "EVALMAS",
     "MAXSUM77",
     "XLSQUARE",
-    "STICKBREAK"
+    "STICKBREAK",
+    "LEPERMUT",
+    "ADDGCD",
+    "MINANDMAX",
+    "DIVAB",
+    "CREATEPERM"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -5407,6 +5412,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-04 17:16:02"
+    },
+    {
+      "code": "LEPERMUT",
+      "name": "Little Elephant and Permutations",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-04 20:35:05"
+    },
+    {
+      "code": "ADDGCD",
+      "name": "Add to get GCD",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-04 20:36:52"
+    },
+    {
+      "code": "MINANDMAX",
+      "name": "Minimum And Maximum I",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-04 20:39:06"
+    },
+    {
+      "code": "DIVAB",
+      "name": "To Divide or Not To Divide",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-04 20:41:07"
+    },
+    {
+      "code": "CREATEPERM",
+      "name": "Permutation Construction",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-04 20:44:09"
     }
   ]
 }
