@@ -1,5 +1,5 @@
 {
-  "total_solved": 649,
+  "total_solved": 653,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -649,7 +649,11 @@
     "ADDGCD",
     "MINANDMAX",
     "DIVAB",
-    "CREATEPERM"
+    "CREATEPERM",
+    "ARRSWAP",
+    "CORUS",
+    "LAPTOPREC",
+    "BINSTRING"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -905,7 +909,8 @@
     "LPC",
     "MARBCOLL",
     "COVDSMPL",
-    "ADVITIYA4"
+    "ADVITIYA4",
+    "GRPASSN"
   ],
   "history": [
     {
@@ -5447,6 +5452,34 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-11-04 20:44:09"
+    },
+    {
+      "code": "ARRSWAP",
+      "name": "Asymmetric Swaps",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-04 22:56:37"
+    },
+    {
+      "code": "CORUS",
+      "name": "Isolation Centers",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-04 22:57:55"
+    },
+    {
+      "code": "LAPTOPREC",
+      "name": "Laptop Recommendation ",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-04 23:02:41"
+    },
+    {
+      "code": "BINSTRING",
+      "name": "Distinct Binary Strings",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-04 23:04:09"
     }
   ]
 }
