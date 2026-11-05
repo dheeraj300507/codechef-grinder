@@ -1,5 +1,5 @@
 {
-  "total_solved": 653,
+  "total_solved": 658,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -653,7 +653,12 @@
     "ARRSWAP",
     "CORUS",
     "LAPTOPREC",
-    "BINSTRING"
+    "BINSTRING",
+    "CNDLOVE",
+    "LEAGUE",
+    "CATSDOGS",
+    "ADD13",
+    "RPD"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -5480,6 +5485,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-04 23:04:09"
+    },
+    {
+      "code": "CNDLOVE",
+      "name": "Candy Love",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-05 12:46:44"
+    },
+    {
+      "code": "LEAGUE",
+      "name": "Farmers League",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-05 12:48:23"
+    },
+    {
+      "code": "CATSDOGS",
+      "name": "Cats and Dogs",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-05 12:50:22"
+    },
+    {
+      "code": "ADD13",
+      "name": "Add 1 or 3",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-05 12:52:15"
+    },
+    {
+      "code": "RPD",
+      "name": "Easy Math",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-05 12:54:12"
     }
   ]
 }
