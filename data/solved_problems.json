@@ -1,5 +1,5 @@
 {
-  "total_solved": 668,
+  "total_solved": 673,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -668,7 +668,12 @@
     "POSTPERI",
     "COVSPRD",
     "TALAZY",
-    "P3149"
+    "P3149",
+    "PRIMESUM7",
+    "COMPCAND",
+    "THREEQ",
+    "ARRAYRET",
+    "GOODSET"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -5600,6 +5605,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-05 20:55:50"
+    },
+    {
+      "code": "PRIMESUM7",
+      "name": "Prime Sum",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-05 22:56:23"
+    },
+    {
+      "code": "COMPCAND",
+      "name": "Can You Eat It",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-05 22:57:48"
+    },
+    {
+      "code": "THREEQ",
+      "name": "The Old Saint And Three Questions",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-05 22:59:08"
+    },
+    {
+      "code": "ARRAYRET",
+      "name": "Retrieve the Array",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-05 23:01:11"
+    },
+    {
+      "code": "GOODSET",
+      "name": "A Good Set",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-05 23:02:32"
     }
   ]
 }
