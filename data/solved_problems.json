@@ -1,5 +1,5 @@
 {
-  "total_solved": 658,
+  "total_solved": 664,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -658,7 +658,13 @@
     "LEAGUE",
     "CATSDOGS",
     "ADD13",
-    "RPD"
+    "RPD",
+    "CHEFRUN",
+    "DIDE",
+    "P3209",
+    "POSHOP",
+    "ACCESS",
+    "FENCECOL"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -5520,6 +5526,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-05 12:54:12"
+    },
+    {
+      "code": "CHEFRUN",
+      "name": "Secret Recipe",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-05 17:19:31"
+    },
+    {
+      "code": "DIDE",
+      "name": "Dice Deception",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-05 17:21:16"
+    },
+    {
+      "code": "P3209",
+      "name": "Small GCD Sort",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-05 17:22:07"
+    },
+    {
+      "code": "POSHOP",
+      "name": "Posh Shopping",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-05 17:23:55"
+    },
+    {
+      "code": "ACCESS",
+      "name": "Access Control",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-05 17:24:51"
+    },
+    {
+      "code": "FENCECOL",
+      "name": "Fence Colouring",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-05 17:25:53"
     }
   ]
 }
