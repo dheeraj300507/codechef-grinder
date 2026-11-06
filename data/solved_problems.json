@@ -1,5 +1,5 @@
 {
-  "total_solved": 673,
+  "total_solved": 679,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -673,7 +673,13 @@
     "COMPCAND",
     "THREEQ",
     "ARRAYRET",
-    "GOODSET"
+    "GOODSET",
+    "ADDIS",
+    "TRAINEVOD",
+    "PERDIS",
+    "RESPAL",
+    "SPCP3",
+    "PILBELLS"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -5640,6 +5646,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-05 23:02:32"
+    },
+    {
+      "code": "ADDIS",
+      "name": "Additive Dissonance",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-06 12:32:09"
+    },
+    {
+      "code": "TRAINEVOD",
+      "name": "Train Even or Odd",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-06 12:33:11"
+    },
+    {
+      "code": "PERDIS",
+      "name": "Permutation Disturbance",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-06 12:34:24"
+    },
+    {
+      "code": "RESPAL",
+      "name": "Restrict Palindromes",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-06 12:35:54"
+    },
+    {
+      "code": "SPCP3",
+      "name": "Marbles",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-06 12:37:36"
+    },
+    {
+      "code": "PILBELLS",
+      "name": "Bells of Pilgrimage",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-06 12:38:40"
     }
   ]
 }
