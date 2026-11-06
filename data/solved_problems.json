@@ -1,5 +1,5 @@
 {
-  "total_solved": 683,
+  "total_solved": 688,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -683,7 +683,12 @@
     "COOLCON",
     "KMED",
     "BESTSEATS",
-    "CONSTR"
+    "CONSTR",
+    "PASCRO",
+    "SPC2025Q2",
+    "PERMCLEAR",
+    "RED23",
+    "FANCY"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -5720,6 +5725,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-06 16:48:09"
+    },
+    {
+      "code": "PASCRO",
+      "name": "Rock Paper Scissor",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-06 20:07:23"
+    },
+    {
+      "code": "SPC2025Q2",
+      "name": "Itz Simple",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-06 20:08:57"
+    },
+    {
+      "code": "PERMCLEAR",
+      "name": "Permutation Clear",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-06 20:10:02"
+    },
+    {
+      "code": "RED23",
+      "name": "Number Reduction",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-06 20:11:00"
+    },
+    {
+      "code": "FANCY",
+      "name": "Fancy Quotes",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-06 20:12:00"
     }
   ]
 }
