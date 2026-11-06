@@ -1,5 +1,5 @@
 {
-  "total_solved": 679,
+  "total_solved": 683,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -679,7 +679,11 @@
     "PERDIS",
     "RESPAL",
     "SPCP3",
-    "PILBELLS"
+    "PILBELLS",
+    "COOLCON",
+    "KMED",
+    "BESTSEATS",
+    "CONSTR"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -5688,6 +5692,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-06 12:38:40"
+    },
+    {
+      "code": "COOLCON",
+      "name": "Cooling Conundrum",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-06 16:43:33"
+    },
+    {
+      "code": "KMED",
+      "name": "K Median",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-06 16:45:21"
+    },
+    {
+      "code": "BESTSEATS",
+      "name": "Best Seats",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-06 16:47:09"
+    },
+    {
+      "code": "CONSTR",
+      "name": "Construct String",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-06 16:48:09"
     }
   ]
 }
