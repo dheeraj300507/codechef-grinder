@@ -1,5 +1,5 @@
 {
-  "total_solved": 688,
+  "total_solved": 693,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -688,7 +688,12 @@
     "SPC2025Q2",
     "PERMCLEAR",
     "RED23",
-    "FANCY"
+    "FANCY",
+    "ARRAYBREAK",
+    "EVMHACK",
+    "WRSTP",
+    "PERMGCD",
+    "FLIPPRE"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -5760,6 +5765,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-06 20:12:00"
+    },
+    {
+      "code": "ARRAYBREAK",
+      "name": "Break the elements",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-06 22:27:03"
+    },
+    {
+      "code": "EVMHACK",
+      "name": "EVM Hacking",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-06 22:28:34"
+    },
+    {
+      "code": "WRSTP",
+      "name": "One Wrong Step",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-06 22:30:27"
+    },
+    {
+      "code": "PERMGCD",
+      "name": "Permutation GCD",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-06 22:32:28"
+    },
+    {
+      "code": "FLIPPRE",
+      "name": "Flip Prefix",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-06 22:33:36"
     }
   ]
 }
