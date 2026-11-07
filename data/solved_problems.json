@@ -1,5 +1,5 @@
 {
-  "total_solved": 705,
+  "total_solved": 711,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -705,7 +705,13 @@
     "INVEQ",
     "GCD_1",
     "FLIPPAL",
-    "CHRISDECOR"
+    "CHRISDECOR",
+    "CALPOWER",
+    "NUTRITION",
+    "CHFM",
+    "BULBLIFE",
+    "DATATYPE",
+    "BRKBKS"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -5898,6 +5904,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-07 18:28:12"
+    },
+    {
+      "code": "CALPOWER",
+      "name": "Cool Name",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-07 21:06:46"
+    },
+    {
+      "code": "NUTRITION",
+      "name": "Max Nutrition",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-07 21:08:43"
+    },
+    {
+      "code": "CHFM",
+      "name": "Chef and Mean  ",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-07 21:09:57"
+    },
+    {
+      "code": "BULBLIFE",
+      "name": "Good Quality Bulbs",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-07 21:11:37"
+    },
+    {
+      "code": "DATATYPE",
+      "name": "Fit in Data Type",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-07 21:12:48"
+    },
+    {
+      "code": "BRKBKS",
+      "name": "Breaking Bricks",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-07 21:13:37"
     }
   ]
 }
