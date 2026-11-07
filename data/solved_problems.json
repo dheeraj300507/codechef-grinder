@@ -1,5 +1,5 @@
 {
-  "total_solved": 693,
+  "total_solved": 697,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -693,7 +693,11 @@
     "EVMHACK",
     "WRSTP",
     "PERMGCD",
-    "FLIPPRE"
+    "FLIPPRE",
+    "PASSCHAIN",
+    "LITUP",
+    "MINDIST1",
+    "ALBS"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -5800,6 +5804,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-06 22:33:36"
+    },
+    {
+      "code": "PASSCHAIN",
+      "name": "Passing Chain",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-07 11:27:08"
+    },
+    {
+      "code": "LITUP",
+      "name": "Lit Up",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-07 11:30:25"
+    },
+    {
+      "code": "MINDIST1",
+      "name": "Minimum distance between 1s",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-07 11:31:15"
+    },
+    {
+      "code": "ALBS",
+      "name": "Alternating Binary String",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-07 11:33:17"
     }
   ]
 }
