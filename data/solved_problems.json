@@ -1,5 +1,5 @@
 {
-  "total_solved": 697,
+  "total_solved": 701,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -697,7 +697,11 @@
     "PASSCHAIN",
     "LITUP",
     "MINDIST1",
-    "ALBS"
+    "ALBS",
+    "LMP2E",
+    "PIZZACOMP",
+    "EVENSUM1",
+    "CAKEBAKE7"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -954,7 +958,8 @@
     "MARBCOLL",
     "COVDSMPL",
     "ADVITIYA4",
-    "GRPASSN"
+    "GRPASSN",
+    "REMOVEDUPLIC"
   ],
   "history": [
     {
@@ -5832,6 +5837,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-07 11:33:17"
+    },
+    {
+      "code": "LMP2E",
+      "name": "Winter is Coming",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-07 15:37:53"
+    },
+    {
+      "code": "PIZZACOMP",
+      "name": "Pizza Comparision",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-07 15:39:31"
+    },
+    {
+      "code": "EVENSUM1",
+      "name": "Even Sum",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-07 15:42:08"
+    },
+    {
+      "code": "CAKEBAKE7",
+      "name": "Cake Baking",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-07 15:43:33"
     }
   ]
 }
