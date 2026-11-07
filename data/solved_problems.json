@@ -1,5 +1,5 @@
 {
-  "total_solved": 701,
+  "total_solved": 705,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -701,7 +701,11 @@
     "LMP2E",
     "PIZZACOMP",
     "EVENSUM1",
-    "CAKEBAKE7"
+    "CAKEBAKE7",
+    "INVEQ",
+    "GCD_1",
+    "FLIPPAL",
+    "CHRISDECOR"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -959,7 +963,8 @@
     "COVDSMPL",
     "ADVITIYA4",
     "GRPASSN",
-    "REMOVEDUPLIC"
+    "REMOVEDUPLIC",
+    "MKEQ"
   ],
   "history": [
     {
@@ -5865,6 +5870,34 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-11-07 15:43:33"
+    },
+    {
+      "code": "INVEQ",
+      "name": "Invert And Equalize",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-07 18:21:53"
+    },
+    {
+      "code": "GCD_1",
+      "name": "GCD to 1 (Easy)",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-07 18:24:14"
+    },
+    {
+      "code": "FLIPPAL",
+      "name": "Palindrome Flipping",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-07 18:26:19"
+    },
+    {
+      "code": "CHRISDECOR",
+      "name": "Decorating Christmas Tree",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-07 18:28:12"
     }
   ]
 }
