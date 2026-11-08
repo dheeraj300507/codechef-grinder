@@ -1,5 +1,5 @@
 {
-  "total_solved": 711,
+  "total_solved": 714,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -711,7 +711,10 @@
     "CHFM",
     "BULBLIFE",
     "DATATYPE",
-    "BRKBKS"
+    "BRKBKS",
+    "PERMCON",
+    "BIGNAME",
+    "SUBARRY"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -970,7 +973,8 @@
     "ADVITIYA4",
     "GRPASSN",
     "REMOVEDUPLIC",
-    "MKEQ"
+    "MKEQ",
+    "DSCPPAS266"
   ],
   "history": [
     {
@@ -5946,6 +5950,27 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-07 21:13:37"
+    },
+    {
+      "code": "PERMCON",
+      "name": "Permutation Construct",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-08 11:33:24"
+    },
+    {
+      "code": "BIGNAME",
+      "name": "Bigger is Better",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-08 11:34:54"
+    },
+    {
+      "code": "SUBARRY",
+      "name": "Interesting Subarray",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-08 11:36:41"
     }
   ]
 }
