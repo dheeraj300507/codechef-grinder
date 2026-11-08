@@ -1,5 +1,5 @@
 {
-  "total_solved": 714,
+  "total_solved": 720,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -714,7 +714,13 @@
     "BRKBKS",
     "PERMCON",
     "BIGNAME",
-    "SUBARRY"
+    "SUBARRY",
+    "SINGLEOP1",
+    "MEXARR",
+    "NONNEGSUM",
+    "FRGTNLNG",
+    "COLOR",
+    "GCDPERM"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -5971,6 +5977,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-08 11:36:41"
+    },
+    {
+      "code": "SINGLEOP1",
+      "name": "Single Operation Part 1",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-08 15:55:53"
+    },
+    {
+      "code": "MEXARR",
+      "name": "MEXimize the Array",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-08 15:57:56"
+    },
+    {
+      "code": "NONNEGSUM",
+      "name": "Non-Negative Sum",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-08 16:00:44"
+    },
+    {
+      "code": "FRGTNLNG",
+      "name": "Forgotten Language",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-08 16:02:50"
+    },
+    {
+      "code": "COLOR",
+      "name": "Chef And Coloring",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-08 16:03:52"
+    },
+    {
+      "code": "GCDPERM",
+      "name": "Subset GCD",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-08 16:05:33"
     }
   ]
 }
