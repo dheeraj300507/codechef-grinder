@@ -1,5 +1,5 @@
 {
-  "total_solved": 724,
+  "total_solved": 730,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -724,7 +724,13 @@
     "P4HOME",
     "DIVIDING",
     "LCH15JAB",
-    "STOPCOUNT"
+    "STOPCOUNT",
+    "BRACKETS",
+    "TWOROOKS",
+    "ODDEVENBS",
+    "SHORTSPELL",
+    "NOTINCOM",
+    "CHEFEZQ"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -6051,6 +6057,48 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-08 18:36:53"
+    },
+    {
+      "code": "BRACKETS",
+      "name": "Brackets",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-08 21:24:02"
+    },
+    {
+      "code": "TWOROOKS",
+      "name": "Two Rooks",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-08 21:25:27"
+    },
+    {
+      "code": "ODDEVENBS",
+      "name": "Odd Even Binary String",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-08 21:26:44"
+    },
+    {
+      "code": "SHORTSPELL",
+      "name": "Spell Shortening",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-08 21:28:26"
+    },
+    {
+      "code": "NOTINCOM",
+      "name": "Nothing in Common",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-08 21:30:13"
+    },
+    {
+      "code": "CHEFEZQ",
+      "name": "Chef and Easy Queries",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-08 21:31:15"
     }
   ]
 }
