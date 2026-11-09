@@ -1,5 +1,5 @@
 {
-  "total_solved": 737,
+  "total_solved": 740,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -737,7 +737,10 @@
     "SSUBSTR",
     "ANOTSTR",
     "MAXCOIN",
-    "SIMDISH"
+    "SIMDISH",
+    "GAME_XI",
+    "POPCORN",
+    "TRANCHAIN"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -998,7 +1001,8 @@
     "REMOVEDUPLIC",
     "MKEQ",
     "DSCPPAS266",
-    "MEBA"
+    "MEBA",
+    "MINLCS"
   ],
   "history": [
     {
@@ -6156,6 +6160,27 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-09 19:49:31"
+    },
+    {
+      "code": "GAME_XI",
+      "name": "GAME 11",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-09 23:15:08"
+    },
+    {
+      "code": "POPCORN",
+      "name": "Vishesh and his Popcorn Combo",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-09 23:16:19"
+    },
+    {
+      "code": "TRANCHAIN",
+      "name": "Transfusion Chain",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-09 23:18:14"
     }
   ]
 }
