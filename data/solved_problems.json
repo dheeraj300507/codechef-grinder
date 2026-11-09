@@ -1,5 +1,5 @@
 {
-  "total_solved": 730,
+  "total_solved": 734,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -730,7 +730,11 @@
     "ODDEVENBS",
     "SHORTSPELL",
     "NOTINCOM",
-    "CHEFEZQ"
+    "CHEFEZQ",
+    "DICEERMAX",
+    "CHEFNWRK",
+    "ADADISH",
+    "SSUBSTR"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -6099,6 +6103,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-08 21:31:15"
+    },
+    {
+      "code": "DICEERMAX",
+      "name": "Erase and Maximize",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-09 13:25:49"
+    },
+    {
+      "code": "CHEFNWRK",
+      "name": "Chef and Work",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-09 13:27:35"
+    },
+    {
+      "code": "ADADISH",
+      "name": "Ada and Dishes",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-09 13:29:57"
+    },
+    {
+      "code": "SSUBSTR",
+      "name": "Sorted Substrings",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-09 13:33:04"
     }
   ]
 }
