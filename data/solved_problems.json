@@ -1,5 +1,5 @@
 {
-  "total_solved": 734,
+  "total_solved": 737,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -734,7 +734,10 @@
     "DICEERMAX",
     "CHEFNWRK",
     "ADADISH",
-    "SSUBSTR"
+    "SSUBSTR",
+    "ANOTSTR",
+    "MAXCOIN",
+    "SIMDISH"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -994,7 +997,8 @@
     "GRPASSN",
     "REMOVEDUPLIC",
     "MKEQ",
-    "DSCPPAS266"
+    "DSCPPAS266",
+    "MEBA"
   ],
   "history": [
     {
@@ -6131,6 +6135,27 @@
       "status": "Accepted",
       "attempts": 2,
       "time": "2026-11-09 13:33:04"
+    },
+    {
+      "code": "ANOTSTR",
+      "name": "Another String",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-09 19:46:02"
+    },
+    {
+      "code": "MAXCOIN",
+      "name": "Maximum Coins",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-09 19:48:39"
+    },
+    {
+      "code": "SIMDISH",
+      "name": "Similar Dishes",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-09 19:49:31"
     }
   ]
 }
