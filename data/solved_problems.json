@@ -1012,7 +1012,10 @@
     "MINLCS",
     "MARKP",
     "FINDPEAK",
-    "LCM_GCD"
+    "LCM_GCD",
+    "BUY1GET1",
+    "PER_MOD",
+    "KNOCKOUT"
   ],
   "history": [
     {
