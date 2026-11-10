@@ -1019,7 +1019,12 @@
     "PER_MOD",
     "KNOCKOUT",
     "SUMOFPROD1",
-    "DSACPR66"
+    "DSACPR66",
+    "MAXDISTPERM",
+    "ANKTRAIN",
+    "UWCOI21A",
+    "P3BAR",
+    "CO92JUDG"
   ],
   "history": [
     {
