@@ -1,5 +1,5 @@
 {
-  "total_solved": 747,
+  "total_solved": 749,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -747,7 +747,9 @@
     "BESTMOVIE",
     "CHFDBT",
     "ICL1902",
-    "SPOON"
+    "SPOON",
+    "MINLCM1",
+    "EARLYWIN"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -1015,7 +1017,9 @@
     "LCM_GCD",
     "BUY1GET1",
     "PER_MOD",
-    "KNOCKOUT"
+    "KNOCKOUT",
+    "SUMOFPROD1",
+    "DSACPR66"
   ],
   "history": [
     {
@@ -6243,6 +6247,20 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-10 13:06:49"
+    },
+    {
+      "code": "MINLCM1",
+      "name": "Min Max LCM",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-10 20:38:19"
+    },
+    {
+      "code": "EARLYWIN",
+      "name": "Early Certificates",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-10 20:44:59"
     }
   ]
 }
