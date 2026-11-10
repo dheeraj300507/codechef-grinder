@@ -1,5 +1,5 @@
 {
-  "total_solved": 744,
+  "total_solved": 747,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -744,7 +744,10 @@
     "TWOTRAINS",
     "RHYDOOR",
     "HILLS",
-    "BESTMOVIE"
+    "BESTMOVIE",
+    "CHFDBT",
+    "ICL1902",
+    "SPOON"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -1007,7 +1010,9 @@
     "DSCPPAS266",
     "MEBA",
     "MINLCS",
-    "MARKP"
+    "MARKP",
+    "FINDPEAK",
+    "LCM_GCD"
   ],
   "history": [
     {
@@ -6214,6 +6219,27 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-10 00:58:41"
+    },
+    {
+      "code": "CHFDBT",
+      "name": "Akash and Function",
+      "status": "Accepted",
+      "attempts": 2,
+      "time": "2026-11-10 13:02:51"
+    },
+    {
+      "code": "ICL1902",
+      "name": "FlatLand",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-10 13:04:48"
+    },
+    {
+      "code": "SPOON",
+      "name": "Spoon in Matrix",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-10 13:06:49"
     }
   ]
 }
