@@ -1,5 +1,5 @@
 {
-  "total_solved": 758,
+  "total_solved": 762,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -758,7 +758,11 @@
     "JDELAY",
     "DELNQ",
     "STAIRCASE7",
-    "TRUEDARE"
+    "TRUEDARE",
+    "HOSTELROOM",
+    "REMOVEMUL",
+    "DSACPR49",
+    "CHNUM"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -6338,6 +6342,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-11 17:15:33"
+    },
+    {
+      "code": "HOSTELROOM",
+      "name": "Hostel Room",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-11 23:44:33"
+    },
+    {
+      "code": "REMOVEMUL",
+      "name": "Remove Multiples",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-11 23:46:26"
+    },
+    {
+      "code": "DSACPR49",
+      "name": "Leader of an Array",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-11 23:47:50"
+    },
+    {
+      "code": "CHNUM",
+      "name": "Chef and Number Game",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-11 23:48:45"
     }
   ]
 }
