@@ -1,5 +1,5 @@
 {
-  "total_solved": 754,
+  "total_solved": 758,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -754,7 +754,11 @@
     "SNUG_FIT",
     "ASSIGNSCORE",
     "ADACRA",
-    "INTSEQ"
+    "INTSEQ",
+    "JDELAY",
+    "DELNQ",
+    "STAIRCASE7",
+    "TRUEDARE"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -6306,6 +6310,34 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-11 12:20:12"
+    },
+    {
+      "code": "JDELAY",
+      "name": "Judging Delay",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-11 17:03:56"
+    },
+    {
+      "code": "DELNQ",
+      "name": "Delete Not Equal",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-11 17:06:29"
+    },
+    {
+      "code": "STAIRCASE7",
+      "name": "Staircase Edits",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-11 17:08:06"
+    },
+    {
+      "code": "TRUEDARE",
+      "name": "Truth and Dare",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-11 17:15:33"
     }
   ]
 }
