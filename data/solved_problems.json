@@ -1,5 +1,5 @@
 {
-  "total_solved": 749,
+  "total_solved": 754,
   "solved_codes": [
     "START01",
     "FLOW001",
@@ -749,7 +749,12 @@
     "ICL1902",
     "SPOON",
     "MINLCM1",
-    "EARLYWIN"
+    "EARLYWIN",
+    "SPMISS",
+    "SNUG_FIT",
+    "ASSIGNSCORE",
+    "ADACRA",
+    "INTSEQ"
   ],
   "failed_codes": [
     "CCLEARN",
@@ -6266,6 +6271,41 @@
       "status": "Accepted",
       "attempts": 1,
       "time": "2026-11-10 20:44:59"
+    },
+    {
+      "code": "SPMISS",
+      "name": "Special Missions",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-11 12:13:28"
+    },
+    {
+      "code": "SNUG_FIT",
+      "name": "School of Geometry",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-11 12:15:38"
+    },
+    {
+      "code": "ASSIGNSCORE",
+      "name": "Assignment Score",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-11 12:17:08"
+    },
+    {
+      "code": "ADACRA",
+      "name": "Ada and crayons",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-11 12:18:33"
+    },
+    {
+      "code": "INTSEQ",
+      "name": "An Interesting Sequence",
+      "status": "Accepted",
+      "attempts": 1,
+      "time": "2026-11-11 12:20:12"
     }
   ]
 }
